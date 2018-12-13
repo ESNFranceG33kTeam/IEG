@@ -36,3 +36,6 @@
 {"level":"warn","message":"unsupported route: /client/de49c72a4ed02edaa63d.hot-update.json; error: {\"code\":404}"}
 {"message":"server started at http://localhost:3000","level":"info"}
 {"message":"server started at http://localhost:3000","level":"info"}
+{"message":"server started at http://localhost:3000","level":"info"}
+{"message":"server started at http://localhost:3000","level":"info"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}

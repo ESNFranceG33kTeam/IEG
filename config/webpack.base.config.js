@@ -114,8 +114,7 @@ const baseConfig = {
   },
   plugins: [
     new VueLoaderPlugin(),
-    new webpack.DefinePlugin({ PRODUCTION: isProd, DEVELOPMENT: !isProd, TEST: false }),
-    new ForkTsCheckerWebpackPlugin({ tslint: true, vue: true }),
+    new webpack.DefinePlugin({ PRODUCTION: isProd, DEVELOPMENT: !isProd, TEST: false })
   ],
 };
 

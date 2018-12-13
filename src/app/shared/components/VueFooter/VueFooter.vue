@@ -16,14 +16,6 @@
           </a>
         </vue-grid-item>
         -->
-
-        <vue-grid-item>
-          <small>
-            <a href="https://github.com/devCrossNet/vue-starter/blob/master/LICENSE" target="_blank" rel="noopener">
-              MIT License
-            </a>
-          </small>
-        </vue-grid-item>
       </vue-grid-row>
     </vue-grid>
   </div>

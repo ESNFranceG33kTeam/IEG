@@ -1,21 +1,21 @@
-# ieg-website
+# ieg
+> A website template for the International Erasmus Games, made with vue-starter.
 
-> The official website of the 2019 edition of the International Erasmus Games, organized by [ESN Paris](http://assas.ixesn.fr).
+# Getting started
 
-## Build Setup
+1. Install node 8 or higher
+2. Install npm 5 or higher
+3. Clone this repository
+4. Change directory `cd ieg`
+5. Install dependencies: `npm install`
+6. Run `npm run dev`
 
-``` bash
-# install dependencies
-npm install
+# Deployment
 
-# launch application
-npm run dev
+1. Run `npm run build`
+2. Wait for the client and server to be built
+3. Run `npm run start`
 
-# build for production with minification
-npm run build
+# License
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how VueJS work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[MIT](http://opensource.org/licenses/MIT)

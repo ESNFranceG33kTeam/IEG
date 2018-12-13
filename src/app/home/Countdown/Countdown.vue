@@ -32,7 +32,7 @@
         },
         data(): any {
             return {
-                timeLeft: 'bonjour'
+                timeLeft: 'countdown'
             };
         },
         methods: {
@@ -57,8 +57,13 @@
                 const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                // Display the result in the element with id="demo"
-                this.updateTime(`${days} days - ${hours}h ${minutes}min ${seconds}secs`);
+                // Display the result in the countdown element
+                let time = '' + days;
+                time += (days === 1 ? ' day' : ' days') + ' - ' + hours + ' ' +
+                    (hours === 1 ? 'hour' : 'hours') + ' ' +
+                    minutes + ' ' + (minutes === 1 ? 'min' : 'mins') + ' ' +
+                    seconds + ' ' + (seconds === 1 ? 'sec' : 'secs');
+                this.updateTime(time);
 
                 // If the count down is finished, write some text
                 if (distance < 0) {

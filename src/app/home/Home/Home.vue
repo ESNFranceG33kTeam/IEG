@@ -3,9 +3,7 @@
     <stage
       :disable-particles="disableParticles" />
     <countdown />
-    <enterprise-ready />
-    <user-experience />
-    <quick-start />
+    <welcome />
   </div>
 </template>
 
@@ -13,9 +11,7 @@
   import { mapState }    from 'vuex';
   import Stage           from '../Stage/Stage.vue';
   import Countdown       from '../Countdown/Countdown.vue';
-  import EnterpriseReady from '../Welcome/Welcome.vue';
-  import UserExperience  from '../UserExperience/UserExperience.vue';
-  import QuickStart      from '../QuickStart/QuickStart.vue';
+  import Welcome from '../Welcome/Welcome.vue';
   import { IState }      from '../../state';
 
   export default {
@@ -67,9 +63,7 @@
     components: {
       Stage,
       Countdown,
-      EnterpriseReady,
-      UserExperience,
-      QuickStart,
+      Welcome,
     },
     computed:   {
       ...mapState({

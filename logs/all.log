@@ -68,3 +68,5 @@
 {"level":"warn","message":"unsupported route: /client/a3ab2130baa7d16ef331.hot-update.json; error: {\"code\":404}"}
 {"level":"warn","message":"unsupported route: /dzdz; error: {\"code\":404}"}
 {"message":"server started at http://localhost:3000","level":"info"}
+{"message":"server started at http://localhost:3000","level":"info"}
+{"message":"server started at http://localhost:80","level":"info"}

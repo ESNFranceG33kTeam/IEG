@@ -14,7 +14,7 @@
 
 1. Run `npm run build`
 2. Wait for the client and server to be built
-3. Run `npm run start`
+3. Run `sudo npm run start` (you need the sudo rights to run the server on port 80)
 
 # License
 

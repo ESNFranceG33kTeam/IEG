@@ -3,7 +3,7 @@ import { Logger } from './utils/Logger';
 import { app }    from './server';
 
 const server = http.createServer(app);
-const port: string = process.env.PORT || '3000';
+const port: string = process.env.PORT || '80';
 let currentApp = app;
 
 server.listen(port, () => {

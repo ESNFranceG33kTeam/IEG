@@ -1,18 +1,17 @@
 <template>
-  <div :class="[$style.enterpriseReady, 'featureSection']">
+  <div :class="[$style.welcome, 'featureSection']">
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item fill class="vueGridItem">
-          <h2>Enterprise ready</h2>
+          <h2>Welcome!</h2>
         </vue-grid-item>
         <vue-grid-item class="vueGridItem">
           <vue-panel class="vuePanel">
             <vue-panel-body>
-              <vue-icon-chart-line />
-              <h3>SEO</h3>
-              <p>We support SEO (document head tags management) and server-side-rendering for search engines that
-                 support
-                 indexing of JavaScript content. (eg. Google)</p>
+              <vue-icon-hashtag />
+              <h3>IEG? What's that?</h3>
+              <p>The International Erasmus Games are a sport event of <strong>Erasmus Student Network</strong>, gathering international
+                students for an unique competition.</p>
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
@@ -20,10 +19,10 @@
         <vue-grid-item class="vueGridItem">
           <vue-panel class="vuePanel">
             <vue-panel-body>
-              <vue-icon-certificate />
-              <h3>Best practices</h3>
-              <p>A Common style guide, TypeScript, and the best test setup: Automatically guarantee code quality and
-                 non-breaking changes.</p>
+              <vue-icon-hashtag />
+              <h3>Wanna come?</h3>
+              <p>Don't hesitate to consult our "Participants" tab, but also the program of the event, which is inside
+                the "event" one!</p>
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
@@ -31,10 +30,10 @@
         <vue-grid-item class="vueGridItem">
           <vue-panel class="vuePanel">
             <vue-panel-body>
-              <vue-icon-flag />
-              <h3>i18n</h3>
-              <p>Scalable apps need to support multiple languages, easily add and support multiple languages with
-                 vue-i18n.</p>
+              <vue-icon-hashtag />
+              <h3>Contact us!</h3>
+              <p>In case you have any problem, any question, please do not hesitate to reach us there: </p>
+              <a href="mailto:ieg@esnparis.com">ieg@esnparis.com</a>
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
@@ -52,6 +51,7 @@
   import VueIconChartLine   from '../../shared/components/icons/VueIconChartLine/VueIconChartLine.vue';
   import VueIconCertificate from '../../shared/components/icons/VueIconCertificate/VueIconCertificate.vue';
   import VueIconFlag        from '../../shared/components/icons/VueIconFlag/VueIconFlag.vue';
+  import VueIconHashtag     from "../../shared/components/icons/VueIconHashtag/VueIconHashtag.vue";
 
   export default {
     components: {
@@ -63,6 +63,7 @@
       VuePanel,
       VuePanelBody,
       VueGridRow,
+      VueIconHashtag
     },
   };
 </script>
@@ -70,7 +71,7 @@
 <style lang="scss" module>
   @import "../../shared/styles";
 
-  .enterpriseReady {
+  .welcome {
     display:    block;
     text-align: center;
 

@@ -13,7 +13,7 @@
   import { mapState }    from 'vuex';
   import Stage           from '../Stage/Stage.vue';
   import Countdown       from '../Countdown/Countdown.vue';
-  import EnterpriseReady from '../EnterpriseReady/EnterpriseReady.vue';
+  import EnterpriseReady from '../Welcome/Welcome.vue';
   import UserExperience  from '../UserExperience/UserExperience.vue';
   import QuickStart      from '../QuickStart/QuickStart.vue';
   import { IState }      from '../../state';

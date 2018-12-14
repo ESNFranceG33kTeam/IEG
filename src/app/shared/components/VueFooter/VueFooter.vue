@@ -6,16 +6,15 @@
           <small>&copy; Copyright {{year}} /  G33K Team - ESN France</small>
         </vue-grid-item>
 
-        <!--
         <vue-grid-item>
-          <a href="https://github.com/devCrossNet" target="_blank" rel="noopener" aria-label="github profile">
-            <vue-icon-github-alt />
+          <a href="https://www.facebook.com/InternationalErasmusGames/" target="_blank" rel="noopener" aria-label="facebook page">
+            <vue-icon-facebook />
           </a>
-          <a href="https://twitter.com/_jwerner_" target="_blank" rel="noopener" aria-label="twitter profile">
-            <vue-icon-twitter-square />
+          <a href="https://www.instagram.com/internationalerasmusgames/" target="_blank" rel="noopener" aria-label="instagram profile">
+            <vue-icon-instagram />
           </a>
         </vue-grid-item>
-        -->
+
       </vue-grid-row>
     </vue-grid>
   </div>
@@ -27,6 +26,8 @@
   import VueGridRow           from '../VueGridRow/VueGridRow.vue';
   import VueIconGithubAlt     from '../icons/VueIconGithubAlt/VueIconGithubAlt.vue';
   import VueIconTwitterSquare from '../icons/VueIconTwitterSquare/VueIconTwitterSquare.vue';
+  import VueIconFacebook      from "../icons/VueIconFacebook/VueIconFacebook.vue";
+  import VueIconInstagram     from "../icons/VueIconInstagram/VueIconInstagram.vue";
 
   export default {
     name:       'VueFooter',
@@ -36,6 +37,8 @@
       VueGrid,
       VueGridItem,
       VueGridRow,
+      VueIconFacebook,
+      VueIconInstagram
     },
     computed:   {
       year() {

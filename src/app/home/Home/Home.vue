@@ -20,7 +20,7 @@
       meta:  [
         {
           name:    'description',
-          content: 'A sport event of ESN International, organized by ESN Paris.',
+          content: 'IEG - the official website of the International Erasmus Games.',
         },
         {
           name:    'robots',
@@ -28,36 +28,22 @@
         },
         {
           name:    'keywords',
-          content: 'ieg, IEG, #IEG2018, sport, Erasmus, ESN',
+          content: 'ieg, sports, ESN, ESNParis, #IEGParis2019',
         },
 
-        { name: 'og:url', content: 'https://test.com' },
-        { name: 'og:site_name', content: 'International Erasmus Games 2019: Paris' },
+        { name: 'og:url', content: 'https://iegparis2019.com/' },
+        { name: 'og:site_name', content: 'IEG Paris 2019' },
         { name: 'og:type', content: 'website' },
         { name: 'og:locale', content: 'en' },
         {
           name:    'og:title',
-          content: 'vue-starter - A flexible, scalable, opinionated boilerplate for production-ready PWAs with focus on performance, development speed, and best practices',
+          content: 'IEG - the official website of the International Erasmus Games.',
         },
         {
           name:    'og:description',
-          content: 'vue-starter - A flexible, scalable, opinionated boilerplate for production-ready PWAs with focus on performance, development speed, and best practices',
+          content: 'IEG - the official website of the International Erasmus Games.',
         },
-        { name: 'og:image:url', content: 'https://vue-starter.herokuapp.com/logo.png' },
-
-        { name: 'twitter:card', content: 'summary' },
-        { name: 'twitter:site', content: '@_jwerner_' },
-        { name: 'twitter:creator', content: '@_jwerner_' },
-        {
-          name:    'twitter:title',
-          content: 'vue-starter - A flexible, scalable, opinionated boilerplate for production-ready PWAs with focus on performance, development speed, and best practices',
-        },
-        { name: 'twitter:url', content: 'https://vue-starter.herokuapp.com/' },
-        { name: 'twitter:image', content: 'https://vue-starter.herokuapp.com/logo.png' },
-        {
-          name:    'twitter:description',
-          content: 'vue-starter - A flexible, scalable, opinionated boilerplate for production-ready PWAs with focus on performance, development speed, and best practices',
-        },
+        { name: 'og:image:url', content: 'https://iegparis2019.com/favicon-96x96.png' },
       ],
     },
     components: {

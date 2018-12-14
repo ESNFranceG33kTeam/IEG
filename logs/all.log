@@ -74,3 +74,7 @@
 {"message":"server started at http://localhost:80","level":"info"}
 {"message":"server started at http://localhost:80","level":"info"}
 {"level":"warn","message":"unsupported route: /client/d4c77718182b63ee439c.hot-update.json; error: {\"code\":404}"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"level":"warn","message":"unsupported route: /client/5d379a43d33c5b4a9066.hot-update.json; error: {\"code\":404}"}
+{"message":"server started at http://localhost:80","level":"info"}

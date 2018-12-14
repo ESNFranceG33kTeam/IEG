@@ -3,18 +3,11 @@
   "version": "0.0.1",
   "description": "A website template for the International Erasmus Games, made with vue-starter.",
   "keywords": [
-    "vue",
-    "vuex",
-    "vue-router",
-    "webpack",
-    "typescript",
-    "server-side-rendering",
-    "boilerplate",
-    "enterprise",
-    "datepicker",
-    "slider",
-    "forms",
-    "components"
+    "ieg",
+    "sports",
+    "ESN",
+    "ESNParis",
+    "#IEGParis2019"
   ],
   "author": "Rémy Raes <g33kteam@ixesn.fr>",
   "license": "MIT",

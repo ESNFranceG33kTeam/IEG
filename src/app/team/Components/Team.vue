@@ -168,37 +168,13 @@
       ],
     },
     components: {
-      VueBreadcrumb,
-      VueToggle,
-      VueDataTable,
       VueCarousel,
-      VueTruncate,
-      VueBadge,
-      VueAutocomplete,
-      VueMarkdown,
       VueGrid,
       VueGridItem,
-      VueButton,
-      VueLoader,
       VuePanel,
       VuePanelHeader,
       VuePanelBody,
       VuePanelFooter,
-      VueInput,
-      VueCollapse,
-      VueModal,
-      VueTabGroup,
-      VueTabItem,
-      VueCheckbox,
-      VueTooltip,
-      VueSlider,
-      VueAccordion,
-      VueAccordionItem,
-      VuePagination,
-      VueSelect,
-      VueCalendar,
-      VueDatePicker,
-      VueDateRangePicker,
       VueGridRow,
     },
     computed:   {
@@ -213,37 +189,6 @@
     },
     data(): any {
       return {
-        collapseDemo:        true,
-        showModal:           false,
-        checked:             true,
-        radio:               'radio1',
-        page:                1,
-        options:             [
-          {
-            label: 'Foo',
-            value: 'foo',
-          },
-          {
-            label: 'Bar',
-            value: 'bar',
-          },
-          {
-            label: 'Baz',
-            value: 'baz',
-          },
-          {
-            label: 'Bla Bla Bla Bla Bla',
-            value: 'bla',
-          },
-          {
-            label: 'Lorem Ipsum la la la',
-            value: 'lorem',
-          },
-        ],
-        selectedOption:      '',
-        inputValue:          'test',
-        autocompleteOptions: [],
-        autocompleteLoading: false,
         images:              [
           {
             alt:       'Slide 1',
@@ -274,71 +219,10 @@
             alt:       'Slide 6',
             copyright: 'unsplash.com/@mrandybae',
             url:       'https://images.unsplash.com/photo-1492970471430-bc6bd7eb2b13?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9893bc89e46e2b77a5d8c091fbba04e9&auto=format&fit=crop&w=2710&q=80',
-          },
-        ],
-        dataTableHeader:     dataTableHeaderFixture,
-        dataTableData:       dataTableDataFixture,
-        toggle:              false,
+          }
+        ]
       };
-    },
-    methods:    {
-      sliderChange(sliderOptions: any) {
-        // tslint:disable-next-line
-        console.log(sliderOptions);
-      },
-      formatSliderValue(value: number) {
-        return `${Math.floor(value)} €`;
-      },
-      calendarChange(date: Date | Date[]) {
-        // tslint:disable-next-line
-        console.log(date);
-      },
-      addNotificationClick() {
-        addNotification(
-          {
-            title: 'this is a test',
-            text:  'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod',
-          } as INotification,
-        );
-      },
-      selectChange(option: string) {
-        // tslint:disable-next-line
-        console.log(option);
-        this.selectedOption = option;
-      },
-      onRequest(query: string, shouldReturn: boolean = true) {
-        this.autocompleteLoading = true;
-
-        /* istanbul ignore next */
-        setTimeout(() => {
-          let returnOptions: boolean = Math.random() > 0.5 || query.indexOf('foo') > -1;
-
-          if (!shouldReturn) {
-            returnOptions = shouldReturn;
-          }
-
-          if (returnOptions) {
-            this.autocompleteOptions = AutocompleteOptionsFixture;
-          } else {
-            this.autocompleteOptions = [];
-          }
-
-          this.autocompleteLoading = false;
-        }, 1000);
-      },
-      onAutocompleteChange(option: IAutocompleteOption) {
-        // tslint:disable-next-line
-        console.log(option);
-      },
-      dataTableClick(row: any) {
-        // tslint:disable-next-line
-        console.log(row);
-      },
-      onDeleteRow(row: any) {
-        // tslint:disable-next-line
-        alert(JSON.stringify(row));
-      },
-    },
+    }
   };
 </script>
 

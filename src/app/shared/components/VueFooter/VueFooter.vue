@@ -24,16 +24,12 @@
   import VueGrid              from '../VueGrid/VueGrid.vue';
   import VueGridItem          from '../VueGridItem/VueGridItem.vue';
   import VueGridRow           from '../VueGridRow/VueGridRow.vue';
-  import VueIconGithubAlt     from '../icons/VueIconGithubAlt/VueIconGithubAlt.vue';
-  import VueIconTwitterSquare from '../icons/VueIconTwitterSquare/VueIconTwitterSquare.vue';
   import VueIconFacebook      from "../icons/VueIconFacebook/VueIconFacebook.vue";
   import VueIconInstagram     from "../icons/VueIconInstagram/VueIconInstagram.vue";
 
   export default {
     name:       'VueFooter',
     components: {
-      VueIconTwitterSquare,
-      VueIconGithubAlt,
       VueGrid,
       VueGridItem,
       VueGridRow,

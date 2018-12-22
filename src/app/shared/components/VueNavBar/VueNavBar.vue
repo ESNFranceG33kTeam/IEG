@@ -63,7 +63,7 @@
       imageUrl: {
         type:     String,
         required: false,
-        default:  '/logo.png',
+        default:  '/logo-white.svg',
       },
     },
     computed:   {
@@ -169,7 +169,8 @@
 
   .brand {
     flex:    1;
-    padding: $space-unit * 2 0 0 0;
+    //padding: $space-unit * 2 0 0 0;
+    padding: 1rem 0 0 0;
     height:  $nav-bar-height - ($space-unit);
     z-index: 2;
   }

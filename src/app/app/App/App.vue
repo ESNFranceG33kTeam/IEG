@@ -8,37 +8,49 @@
       <ul :class="$style.nav">
         <li>
           <router-link to="/event" @click.native="navBarClose">
-            <vue-icon-hashtag />
+            <i>
+              <img src="/logos/event.svg" alt="an event calendar"/>
+            </i>
             <small>{{ $t('App.nav.events' /* Events */) }}</small>
           </router-link>
         </li>
         <li>
           <router-link to="/participants" @click.native="navBarClose">
-            <vue-icon-hashtag />
+            <i>
+              <img src="/logos/participants.svg" alt="an athlete shirt"/>
+            </i>
             <small>{{ $t('App.nav.participants' /* Participants */) }}</small>
           </router-link>
         </li>
         <li>
           <router-link to="/partners" @click.native="navBarClose">
-            <vue-icon-puzzle-piece />
+            <i>
+              <img src="/logos/partners.svg" alt="two hands shaking each other"/>
+            </i>
             <small>{{ $t('App.nav.partners' /* Partners */) }}</small>
           </router-link>
         </li>
           <li>
               <router-link to="/team" @click.native="navBarClose">
-                  <vue-icon-hashtag />
+                <i>
+                  <img src="/logos/team.svg" alt="a team of 3 people"/>
+                </i>
                   <small>{{ $t('App.nav.team' /* Team */) }}</small>
               </router-link>
           </li>
           <li>
               <router-link to="/candidacy" @click.native="navBarClose">
-                  <vue-icon-puzzle-piece />
+                <i>
+                  <img src="/logos/what_drives_us.svg" alt="a chat bubble"/>
+                </i>
                   <small>{{ $t('App.nav.candidacy') }}</small>
               </router-link>
           </li>
           <li>
               <router-link to="/components" @click.native="navBarClose">
-                  <vue-icon-puzzle-piece />
+                <i>
+                  <img src="/logos/media.svg" alt="a journalist accreditation"/>
+                </i>
                   <small>{{ $t('App.nav.media' /* Media */) }}</small>
               </router-link>
           </li>

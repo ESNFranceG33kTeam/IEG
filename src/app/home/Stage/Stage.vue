@@ -7,11 +7,11 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h1 :class="$style.title">IEG 2019: Paris</h1>
+          <h1 :class="$style.title">IEG 2019: PARIS</h1>
           <div :class="$style.subTitle">
-            {{
-            $t('App.core.description')
-            }}
+            {{ $t('App.core.description') }}
+            <br/>
+            {{ $t('App.core.description2') }}
           </div>
         </vue-grid-item>
       </vue-grid-row>

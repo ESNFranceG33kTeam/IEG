@@ -43,7 +43,7 @@
                 <i>
                   <img src="/logos/what_drives_us.svg" alt="a chat bubble"/>
                 </i>
-                  <small>{{ $t('App.nav.candidacy') }}</small>
+                  <small style="white-space: nowrap">{{ $t('App.nav.candidacy') }}</small>
               </router-link>
           </li>
           <li>

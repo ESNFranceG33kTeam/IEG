@@ -79,3 +79,35 @@
 {"level":"warn","message":"unsupported route: /client/5d379a43d33c5b4a9066.hot-update.json; error: {\"code\":404}"}
 {"message":"server started at http://localhost:80","level":"info"}
 {"message":"server started at http://localhost:80","level":"info"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /manifest.json; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /manifest.json; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /manifest.json; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /manifest.json; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"level":"warn","message":"unsupported route: /client/aebfe00493bcb1e2a61f.hot-update.json; error: {\"code\":404}"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"level":"warn","message":"unsupported route: /client/aebfe00493bcb1e2a61f.hot-update.json; error: {\"code\":404}"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"level":"warn","message":"unsupported route: /manifest.json; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /manifest.json; error: {\"code\":404}"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"message":"server started at http://localhost:80","level":"info"}
+{"level":"warn","message":"unsupported route: /__webpack_hmr; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /manifest.json; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /manifest.json; error: {\"code\":404}"}
+{"level":"warn","message":"unsupported route: /manifest.json; error: {\"code\":404}"}
+{"message":"server started at http://localhost:80","level":"info"}

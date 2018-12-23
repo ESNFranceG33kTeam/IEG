@@ -45,7 +45,7 @@ if (process.env.NODE_ENV === 'production') {
             new ServiceWorkerWebpackPlugin({ entry: path.join(__dirname, '..', 'src/client/sw.ts') }),
             new CompressionPlugin({ algorithm: 'gzip', test: /\.js$|\.css$|\.html$/, threshold: 0, minRatio: 1 }),
           ]);
-  clientConfig.performance.hints = 'error';
+  clientConfig.performance.hints = 'warning';
 }
 
 module.exports = clientConfig;

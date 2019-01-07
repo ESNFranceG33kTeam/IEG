@@ -17,9 +17,49 @@
     <vue-grid>
 
       <vue-grid-row>
+        <vue-grid-item class="vueGridItem">
+          <h2>Responsible Party</h2>
+
+          <vue-panel>
+            <vue-panel-body>
+              Responsible Party is a project is run across Europe with more than <strong>174,000 students</strong>
+              participating to date.
+              <strong>Using the peer-to-peer approach student ambassadors are organizing activities during parties in a fun and
+                engaging way with the aim to raise awareness about the health effects of alcohol consumption.</strong>
+              <h3></h3>
+              It's about <strong>smart and simple tips helping you and your friends to really enjoy the party:</strong>
+              making the night last longer while staying in good shape, avoiding excessive drinking and its dangerous
+              consequences, situations you would regret.
+              <h3></h3>
+              Aims:
+              <ul>
+                <li>Raise awareness among students about the health effects of alcohol consumption.</li>
+                <li>Contribute to the reduction of binge drinking and promote responsible drinking among students.</li>
+              </ul>
+            </vue-panel-body>
+          </vue-panel>
+        </vue-grid-item>
 
         <vue-grid-item class="vueGridItem">
-          <h6></h6>
+          <h2>Paris City Hall</h2>
+
+          <vue-panel>
+            <vue-panel-body>
+              Thanks to it 21 deputy mayors, Paris city hall works all year for associations, and its national
+              and international outreach.
+              <h3></h3>
+              Setting for the greatest sport tournaments of the world (Olympic Games, Rugby WorldCup, Football Euro,
+              Handball WorldCup…), the city of Paris is a major partner for the International Erasmus Games through
+              its logistical support and the lending of sport facilities.
+            </vue-panel-body>
+          </vue-panel>
+        </vue-grid-item>
+
+      </vue-grid-row>
+
+      <vue-grid-row>
+        <vue-grid-item class="vueGridItem">
+          <h2>Suppliers</h2>
           <vue-carousel :images="images" />
           <h6></h6>
         </vue-grid-item>

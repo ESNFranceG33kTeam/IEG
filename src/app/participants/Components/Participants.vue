@@ -7,11 +7,7 @@
           <vue-grid-item class="vueGridItem">
             <h1>{{ $t('App.nav.participants') }}</h1>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-            </p>
-            <p>
-              At vero eos et accusam et justo duo dolores
-              et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Any question about the event? Here are some information about registration.
             </p>
           </vue-grid-item>
         </vue-grid-row>
@@ -21,23 +17,28 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h2>Participants list</h2>
+          <h2>Registration</h2>
 
           <vue-panel>
-            <vue-panel-header title="oho je ne cours pas moi" subtitle="je suis bien trop fat"
-                              image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
             <vue-panel-body>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-              et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-              et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Starting mid-February
+            </vue-panel-body>
+          </vue-panel>
+        </vue-grid-item>
+
+        <vue-grid-item class="vueGridItem">
+          <h2>Survival guide</h2>
+
+          <vue-panel>
+            <vue-panel-body>
+              Released on April 18th.
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
 
       </vue-grid-row>
+
+      <h3></h3>
 
     </vue-grid>
   </div>

@@ -59,26 +59,44 @@
 
         <vue-grid-row>
 
-          <vue-grid-item class="vueGridItem">
-              <h2>Why Paris?</h2>
+            <vue-grid-item class="vueGridItem">
+                <h2>Why Paris ?</h2>
 
-              <vue-panel>
-                  <vue-panel-body>
-                      dzdzd zd ùopziduoiuu tzoi uijzdoiyuoizudglizdj moizjd louihdz kiygzd lijzid mijzdmop
-                  </vue-panel-body>
-              </vue-panel>
-          </vue-grid-item>
+                <vue-panel>
+                    <vue-panel-body>
+                        ESN Paris wishes to echo the coming Olympic Games of Paris 2024 and the Rugby WorldCup Paris 2023.
+                        Paris is a city firmly engaged in sports and international events. The International Erasmus
+                        Games are a great opportunity for ESN Paris and ESN France to reach out to european partners by
+                        organizing an ambitious and federative event !<h3></h3>
+
+                        For the very first time in France and in Paris, one of the greatest european realisations, the
+                        Erasmus+ Programme, will be brought forward through a sport tournament on an international
+                        dimension. It is a unique occasion, never a capital city like Paris has welcomed those games. It
+                        is a chance for ESN Paris to bring the IEG to a new level, thanks to an important communication
+                        and mediatisation. The city will have the possibility to bring into view its values of welcoming,
+                        integration, and sports.<h3></h3>
+
+                        The initiative is actively supported by all the associations that compose the network of ESN in
+                        France for the organisation of IEG Paris, thus participates in the whole network animation.
+                        Volunteers from all 36 associations will join the OC to make this event a national project.<h3></h3>
+
+                        Finally, this competition will also be a great moment to bring forward values that import us :
+                        sports for everyone, well-being and sustainability.
+                    </vue-panel-body>
+                </vue-panel>
+            </vue-grid-item>
+
+        </vue-grid-row>
+
+        <vue-grid-row>
 
             <vue-grid-item class="vueGridItem">
                 <h2>Program</h2>
 
                 <vue-panel>
                     <vue-panel-body>
-                        International Erasmus Games (IEG) is a sport event of <b>Erasmus Student Network</b> organised by a local
-                        section of the network.<br/>
-                        Every year, ESN members and international students (representing their host
-                        country) are gathered for a unique competition.
-
+                        IEG Paris will occur from May 2nd to 5th, 2019.<br/>
+                        Stay put, the full program will soon be released !
                     </vue-panel-body>
                 </vue-panel>
             </vue-grid-item>

@@ -64,13 +64,17 @@
           </li>
         <li>
           <a @click="localeSwitch('en')">
-            <vue-icon-flag />
+            <i>
+              <img src="/logos/uk.svg" alt="english flag"/>
+            </i>
             <small>English</small>
           </a>
         </li>
         <li>
           <a @click="localeSwitch('de')">
-            <vue-icon-flag />
+            <i>
+              <img src="/logos/fr.svg" alt="french flag"/>
+            </i>
             <small>French</small>
           </a>
         </li>

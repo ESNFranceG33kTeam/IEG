@@ -23,6 +23,14 @@
           </router-link>
         </li>
         <li>
+          <router-link to="/sports" @click.native="navBarClose">
+            <i>
+              <img src="/logos/sport.svg" alt="three balloons"/>
+            </i>
+            <small>{{ $t('App.nav.sport' /* Partners */) }}</small>
+          </router-link>
+        </li>
+        <li>
           <router-link to="/partners" @click.native="navBarClose">
             <i>
               <img src="/logos/partners.svg" alt="two hands shaking each other"/>

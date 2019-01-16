@@ -32,6 +32,7 @@ h1 {
   font-size:      $font-size-h1;
   font-weight:    $font-weight-h1;
   letter-spacing: $letter-spacing-h1;
+  text-transform: uppercase;
 
   @include media(tabletLandscape) {
     font-size: $font-size-h1 * $font-size-factor-tablet-landscape;

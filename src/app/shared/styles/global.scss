@@ -7,7 +7,7 @@ body {
 }
 
 strong {
-  font-weight: 900;
+  font-weight: $font-weight-strong;
 }
 
 // always make sure images have an alt attribute

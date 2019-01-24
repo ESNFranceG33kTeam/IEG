@@ -7,7 +7,7 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h1 :class="$style.title">IEG 2019: PARIS</h1>
+          <h1 :class="$style.title">IEG 2019 PARIS</h1>
           <div :class="$style.subTitle">
             {{ $t('App.core.description') }}
             <br/>

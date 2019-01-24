@@ -211,9 +211,4 @@
       margin-left: $space-unit;
     }
   }
-
-    ul {
-        list-style: circle;
-        margin-left: 20px;
-    }
 </style>

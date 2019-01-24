@@ -36,10 +36,16 @@
                 <li>Raise awareness among students about the health effects of alcohol consumption.</li>
                 <li>Contribute to the reduction of binge drinking and promote responsible drinking among students.</li>
               </ul>
+              <h3></h3>
+
+              <img src="/partners/rp.png" alt="a student doing some sport"/>
+
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
+      </vue-grid-row>
 
+      <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <h2>Paris City Hall</h2>
 
@@ -52,9 +58,9 @@
               Handball WorldCup…), the city of Paris is a major partner for the International Erasmus Games through
               its logistical support and the lending of sport facilities.
             </vue-panel-body>
+
           </vue-panel>
         </vue-grid-item>
-
       </vue-grid-row>
 
       <vue-grid-row>
@@ -65,7 +71,68 @@
         </vue-grid-item>
       </vue-grid-row>
 
-      <vue-grid-row></vue-grid-row>
+      <vue-grid-row>
+        <vue-grid-item class="vueGridItem">
+          <h2>Become a partner</h2>
+          <h3>Why should you become a partner of the IEG?</h3>
+
+          <vue-panel>
+            <vue-panel-body>
+              <li>Visibility on a European level</li>
+              <p>
+              This event targets young people coming from all part of Europe, or outside of Europe. From Spain to
+              Finland, Belgium to Greece ou Czech Republic to Romania, becoming a partner of our event will insure
+              visibility among all Europe and communication targeting a large public of european young communities.
+              </p>
+              <h3></h3>
+
+              <li>Communicating with young people</li>
+              <p>
+              This event is for young international students all over Europe. They are around 20 to 25 years old.
+              Becoming a partner is a privilege way to address them and present them your brand.
+              </p>
+              <h3></h3>
+
+              <li>Sharing values</li>
+              <p>
+              Becoming a partner is also about sharing the values we want to convey during this event. <strong>Sports for
+              everyone</strong>, first of all, since these IEG will be the first edition to put forward disabled access
+              to sports during the competition. <strong>Health</strong> and well being will be at the center of the event
+              through diverse interventions. Finally, the European citizenship will also be central since the third day
+              of IEG coincides with the Europe Day organized by Paris city hall.  Few days from the European elections,
+              it is a great opportunity to claim European values as yours too.
+              </p>
+              <h3></h3>
+
+              <li>Becoming a contributor and contributing to the world of tomorrow</li>
+              <p>
+              The future is already writing itself today. By becoming a partner of the event, but also of the ESN
+              network, you are contributing in the creation of the world of tomorrow and the citizenship of the new
+              generation of youth coming from all over Europe.
+              </p>
+              <h3></h3>
+
+              <li>Profiting from a fiscal deduction</li>
+              <p>
+              Your donations allow you to profit from a tax deduction on the revenue up to 60% to the limit of 5% of the
+              total revenue. Above that, the surplus can be carried over the next five years (Article 238 bis 1° of the
+              General Tax Code).
+              </p>
+              <h3></h3>
+
+              <h4>Contacts</h4>
+              <ul>
+                <li>yassine.berrada@iegparis2019.com</li>
+                <li>fadile.bhayat@iegparis2019.com</li>
+                <li>julien.guillot@iegparis2019.com</li>
+              </ul>
+            </vue-panel-body>
+
+          </vue-panel>
+        </vue-grid-item>
+      </vue-grid-row>
+
+      <h3></h3>
 
     </vue-grid>
   </div>
@@ -167,6 +234,10 @@
 
 <style lang="scss" module>
   @import "../../shared/styles";
+
+  li {
+    margin-bottom: 10px;
+  }
 
   .components {
     padding-bottom: $space-unit * 2;

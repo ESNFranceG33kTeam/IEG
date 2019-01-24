@@ -81,7 +81,9 @@
                         Volunteers from all 36 associations will join the OC to make this event a national project.<h3></h3>
 
                         Finally, this competition will also be a great moment to bring forward values that import us :
-                        sports for everyone, well-being and sustainability.
+                        <strong>sports for everyone, well-being and sustainability.</strong><h3></h3>
+
+                        <router-link to="/candidacy">Click here to discover more about our values!</router-link>
                     </vue-panel-body>
                 </vue-panel>
             </vue-grid-item>

@@ -18,10 +18,29 @@
       <vue-grid-row>
 
           <vue-grid-item class="vueGridItem">
-              <h2>Sports</h2>
+              <h2>This year: Athletics</h2>
 
               <vue-panel>
                   <vue-panel-body>
+
+                      Athletics will be composed of 4 trials :
+                      <ul>
+                          <li>A 100 m race (run the fastest you can upon 100m)</li>
+                          <li>A 400m race (run the fastest you can upon 400m)</li>
+                          <li>Long jump (jump the farthest you can)</li>
+                          <li>A mixt-gendered relay race  6 x 100m (all members of the team run, one by one. Each runner must
+                              hand off the baton to the next runner within a certain zone).</li>
+                      </ul>
+                      <h3></h3>
+
+                      The idea is that there is a team representing each country that is composed by 3 men and 3 womens.
+                      There will be one reprensentant per tria and per genderl (1 man for the 100m, 1 woman for the 100m,
+                      1 man for the 400m etc.).
+                      To complete all that, a relay will gather the 6 membres of the team. <h3></h3>
+
+                      The teams that will win most trials (so that will gain the most points) will go to finals to
+                      measure themselves amongst the best.
+
 
                   </vue-panel-body>
               </vue-panel>
@@ -36,6 +55,13 @@
 
                 <vue-panel>
                     <vue-panel-body>
+                        <p>
+                            The competition will take place in the Suzanne Lenglen Stadium situated in the 15th
+                            arrondissement of Paris.
+                        </p>
+                        <h3></h3>
+
+                        <vue-carousel :images="images" />
 
                     </vue-panel-body>
                 </vue-panel>
@@ -59,6 +85,7 @@
   import VuePanelFooter
                                                           from '../../shared/components/VuePanel/VuePanelFooter/VuePanelFooter.vue';
   import VueGridRow                                       from '../../shared/components/VueGridRow/VueGridRow.vue';
+  import VueCarousel from "../../shared/components/VueCarousel/VueCarousel.vue";
 
   export default {
     metaInfo:   {
@@ -100,7 +127,24 @@
       VuePanelBody,
       VuePanelFooter,
       VueGridRow,
-    }
+      VueCarousel
+    },
+      data(): any {
+          return {
+              images:              [
+                  {
+                      alt:       'Vue du stade',
+                      copyright: 'airparif.asso.fr',
+                      url:       'https://www.airparif.asso.fr/_img/actu/station-stade-suzanne-lenglen.jpg',
+                  },
+                  {
+                      alt:       'Vue de la piste d\'athlétisme',
+                      copyright: 'jogin.fr',
+                      url:       'https://image.jimcdn.com/app/cms/image/transf/none/path/s2ec71e188a148881/image/i1a0286688ddbf7c6/version/1400426476/image.jpg',
+                  }
+              ]
+          };
+      }
   };
 </script>
 

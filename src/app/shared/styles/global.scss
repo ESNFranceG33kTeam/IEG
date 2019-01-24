@@ -6,6 +6,10 @@ body {
   background-color: $bg-color;
 }
 
+strong {
+  font-weight: 900;
+}
+
 // always make sure images have an alt attribute
 img:not([alt]) {
   border: 5px dashed $brand-warn;

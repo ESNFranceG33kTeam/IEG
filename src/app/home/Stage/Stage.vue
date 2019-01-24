@@ -141,6 +141,8 @@
 
   .title {
     top: $space-unit * 17;
+    font-size: 5.6rem;
+    text-align: left !important;
 
     @include media(tabletPortrait) {
       top: $space-unit * 24;
@@ -153,6 +155,7 @@
 
   .subTitle {
     top: $space-unit * 15;
+    text-align: left !important;
 
     @include media(tabletPortrait) {
       top: $space-unit * 22;

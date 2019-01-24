@@ -34,7 +34,7 @@ $font-size-factor-tablet-landscape: 1.125;
 $font-size-factor-large-desktop: 1.25;
 
 /* Font Weights */
-$font-weight: 300;
+$font-weight: 400;
 $font-weight-h1: 400;
 $font-weight-h2: 400;
 $font-weight-h3: 400;
@@ -61,11 +61,11 @@ $letter-spacing-h5: -.05rem;
 $letter-spacing-h6: -.1rem;
 
 /* General */
-$google-font: 'https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Lato:300,400,700';
+$google-font: 'https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Lato:300,400,700,900';
 //$font-family-headings: 'Oxygen', Helvetica, sans-serif;
 //$font-family: 'Lato', Helvetica, sans-serif;
 $font-family-headings: 'Josefin Sans', sans-serif;
-$font-family: 'Raleway', sans-serif;
+$font-family: 'Lato', sans-serif;
 $space-unit: 0.8rem;
 
 /* Animations */

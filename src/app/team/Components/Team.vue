@@ -10,7 +10,7 @@
               Such a big event couldn't happen without a strong team.
             </p>
             <p>
-              That's why we want to show each and every member of our squad, and to thank
+              That's why we want to show each and every member of our squad, and thank
               them for their involvement in the Games.
             </p>
           </vue-grid-item>
@@ -159,52 +159,89 @@
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
+      </vue-grid-row>
 
-        <vue-grid-item class="vueGridItem">
-          <h3></h3>
+      <h2>IEG International Committee Organization</h2>
+      <vue-grid-row>
+        <vue-grid-item>
+
           <vue-panel>
-            <vue-panel-header title="Hrvoje Grganovic" subtitle="Project Coordinator, IEG Committee"
-                              image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
             <vue-panel-body>
-              He’s passionate volunteer and since he joined this Network he can truly say he became a European citizen.
-              He enjoy advocating for a healthier lifestyle of the students and volunteers but he also do not shy away
-              from sport himself as amateur football enthusiast. He jumped on board of the IEG train years back as a
-              National Representative of ESN Croatia and since then have not looked back.
+              <img src="/team/committee.png" alt="International committee organization"/>
+              <p>
+                They are <strong>Aleksandra Seweryn</strong> (Community Manager), <strong>Hrvoje Grganovic</strong>
+                (Project Coordinator) and <strong>Zrinka Trusic</strong> (Communication Officer). The most amazing team to
+                work with and make sure the IEG doesn’t turn in a complete disaster !
+              </p>
             </vue-panel-body>
           </vue-panel>
+
         </vue-grid-item>
+      </vue-grid-row>
 
-        <vue-grid-item class="vueGridItem">
-          <h3></h3>
+      <h2>Erasmus Student Network</h2>
+      <vue-grid-row>
+        <vue-grid-item>
+
           <vue-panel>
-            <vue-panel-header title="Aleksandra Seweryn" subtitle="Community Manager, IEG Committee"
-                              image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
             <vue-panel-body>
-              Some people call her Ola, others Aleksandra, the rest make fun of her name saying Hola Ola! She is a
-              former NR of ESN Poland, truly passionate about the International Erasmus Games which was the first
-              project she got involved in. She’s in love with travels, Italy, French language and her cute Golden
-              Retriever and she is really looking forward to take care of IEG community this year! <strong>And she loves
-              Julien, the head of the OC.</strong>
+              <p>
+                ESN is a <strong>network of associations</strong> created in Utrecht at the initiative of students who
+                were back from a year of an Erasmus exchange, in <strong>1989</strong>. Since, the network, structured
+                in three levels (local, national, international) kept growing. It includes <strong>39</strong> countries
+                and <strong>525 local associations</strong> in total. France counts <strong>36 local associations</strong>,
+                gathered around three missions: the reception and the inclusion of international students, the promotion
+                of international mobility and the network animation.
+              </p>
+              <h3></h3>
+              <vue-grid-row>
+                <vue-grid-item>
+                  <img alt="esn logo" src="/team/esn.png"/>
+                </vue-grid-item>
+                <vue-grid-item>
+                  <img alt="esn logo" src="/team/esnlogo.png"/>
+                </vue-grid-item>
+              </vue-grid-row>
 
-            </vue-panel-body>
-          </vue-panel>
-        </vue-grid-item>
+              <h3></h3>
+              <iframe src="https://www.youtube.com/embed/WQ071yzhUxI" width="100%"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
 
-        <vue-grid-item class="vueGridItem">
-          <h3></h3>
-          <vue-panel>
-            <vue-panel-header title="Zrinka Trusic" subtitle="Communication Officer, IEG Committee"
-                              image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
-            <vue-panel-body>
-              After developing her skills in ESN Zadar, ESN Croatia and NEC, this is her fourth gig in the field of
-              communications and she is looking forward to new challenges. Handball is her greatest love when it comes
-              to sport, but she have tried to build a professional career in table tennis. She spends most of her time
-              reading, trying to learn new languages, DIY-ing and adding things to her bucket list.
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
       </vue-grid-row>
 
+      <h2>ESN Paris</h2>
+      <vue-grid-row>
+        <vue-grid-item>
+
+          <vue-panel>
+            <vue-panel-body>
+              <p>
+                ESN Paris is the local association taking care of the international students coming to Paris, with more
+                than <strong>130 activities</strong> a year (travels, visits, language exchange meetings, professional
+                trainings, parties, etc.). Our volunteers help them getting settled in their new city, providing
+                administrative help, buddies, and discounts with our partners. We also promote <strong>international
+                mobility</strong> through intervention in forums, schools, and universities.<br/>
+                <strong>Since the end of 2017</strong>, volunteers of ESN Paris have been working on the IEG, ensuring
+                the best welcome for the participants.
+              </p>
+              <h3></h3>
+              <vue-grid-row>
+                <vue-grid-item>
+                  <img src="/team/esnparis.png" alt="ESN Paris team" />
+                </vue-grid-item>
+                <vue-grid-item>
+                  <img src="/team/esnparis_logo.png" alt="ESN Paris logo" />
+                </vue-grid-item>
+              </vue-grid-row>
+            </vue-panel-body>
+          </vue-panel>
+
+        </vue-grid-item>
+      </vue-grid-row>
       <h3></h3>
 
     </vue-grid>

@@ -38,7 +38,7 @@
               </ul>
               <h3></h3>
 
-              <img src="/partners/rp.png" alt="a student doing some sport"/>
+              <img :class="$style.imgCenter" src="/partners/rp.png" alt="a student doing some sport"/>
 
             </vue-panel-body>
           </vue-panel>

@@ -37,7 +37,7 @@
                       once every four years. Handisport was our priority when we applied and it will be at the heart of
                       the project.
                       <h3></h3>
-                      <img src="/candidacy/way.png" alt="a student with a wheelchair"/>
+                      <img :class="$style.imgCenter" src="/candidacy/way.png" alt="a student with a wheelchair"/>
                   </vue-panel-body>
               </vue-panel>
           </vue-grid-item>
@@ -94,7 +94,7 @@
                         Is there a better way than sport to gather people? In France, founder country of Europe, it is
                         an important message to raise.
                         <h3></h3>
-                        <img src="/candidacy/flag.png" alt="students raising flags from all european countries"/>
+                        <img :class="$style.imgCenter" src="/candidacy/flag.png" alt="students raising flags from all european countries"/>
                     </vue-panel-body>
                 </vue-panel>
             </vue-grid-item>

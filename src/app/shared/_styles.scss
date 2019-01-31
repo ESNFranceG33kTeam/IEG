@@ -3,3 +3,25 @@
  */
 @import "./styles/variables";
 @import "./styles/mixins";
+
+.imgCenter {
+  display: block;
+  max-width: 100%;
+
+  @include media(tabletPortrait) {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+}
+
+.imgLeft {
+  display: block;
+  max-width: 100%;
+
+  @include media(tabletPortrait) {
+    float: left;
+    margin: 3px 20px;
+    max-width: 300px;
+  }
+}

@@ -167,7 +167,7 @@
 
           <vue-panel>
             <vue-panel-body>
-              <img src="/team/committee.png" alt="International committee organization"/>
+              <img :class="$style.imgCenter" src="/team/committee.png" alt="International committee organization"/>
               <p>
                 They are <strong>Aleksandra Seweryn</strong> (Community Manager), <strong>Hrvoje Grganovic</strong>
                 (Project Coordinator) and <strong>Zrinka Trusic</strong> (Communication Officer). The most amazing team to
@@ -185,6 +185,7 @@
 
           <vue-panel>
             <vue-panel-body>
+              <img :class="$style.imgLeft" alt="esn logo" src="/team/esnlogo.png"/>
               <p>
                 ESN is a <strong>network of associations</strong> created in Utrecht at the initiative of students who
                 were back from a year of an Erasmus exchange, in <strong>1989</strong>. Since, the network, structured
@@ -196,10 +197,7 @@
               <h3></h3>
               <vue-grid-row>
                 <vue-grid-item>
-                  <img alt="esn logo" src="/team/esn.png"/>
-                </vue-grid-item>
-                <vue-grid-item>
-                  <img alt="esn logo" src="/team/esnlogo.png"/>
+                  <img :class="$style.imgCenter" alt="esn logo" src="/team/esn.png"/>
                 </vue-grid-item>
               </vue-grid-row>
 
@@ -219,6 +217,7 @@
 
           <vue-panel>
             <vue-panel-body>
+              <img :class="$style.imgLeft" src="/team/esnparis_logo.png" alt="ESN Paris logo" />
               <p>
                 ESN Paris is the local association taking care of the international students coming to Paris, with more
                 than <strong>130 activities</strong> a year (travels, visits, language exchange meetings, professional
@@ -231,10 +230,7 @@
               <h3></h3>
               <vue-grid-row>
                 <vue-grid-item>
-                  <img src="/team/esnparis.png" alt="ESN Paris team" />
-                </vue-grid-item>
-                <vue-grid-item>
-                  <img src="/team/esnparis_logo.png" alt="ESN Paris logo" />
+                  <img :class="$style.imgCenter" src="/team/esnparis.png" alt="ESN Paris team" />
                 </vue-grid-item>
               </vue-grid-row>
             </vue-panel-body>

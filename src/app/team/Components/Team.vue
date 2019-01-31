@@ -161,10 +161,9 @@
         </vue-grid-item>
       </vue-grid-row>
 
-      <h2>IEG International Committee Organization</h2>
       <vue-grid-row>
         <vue-grid-item>
-
+          <h2>IEG International Committee Organization</h2>
           <vue-panel>
             <vue-panel-body>
               <img :class="$style.imgCenter" src="/team/committee.png" alt="International committee organization"/>
@@ -179,10 +178,9 @@
         </vue-grid-item>
       </vue-grid-row>
 
-      <h2>Erasmus Student Network</h2>
       <vue-grid-row>
         <vue-grid-item>
-
+          <h2>Erasmus Student Network</h2>
           <vue-panel>
             <vue-panel-body>
               <img :class="$style.imgLeft" alt="esn logo" src="/team/esnlogo.png"/>
@@ -211,10 +209,9 @@
         </vue-grid-item>
       </vue-grid-row>
 
-      <h2>ESN Paris</h2>
       <vue-grid-row>
         <vue-grid-item>
-
+          <h2>ESN Paris</h2>
           <vue-panel>
             <vue-panel-body>
               <img :class="$style.imgLeft" src="/team/esnparis_logo.png" alt="ESN Paris logo" />

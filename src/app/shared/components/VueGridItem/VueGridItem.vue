@@ -56,5 +56,9 @@
     @include media(largeDesktop) {
       padding: 0 $screen-large-desktop-gutter;
     }
+
+    h2 {
+      text-transform: uppercase;
+    }
   }
 </style>

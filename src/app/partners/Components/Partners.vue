@@ -76,7 +76,7 @@
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <h2>Become a partner</h2>
-          <h3>Why should you become a partner of the IEG?</h3>
+          <h3><i style="display: inline !important;">Why should you become a partner of the IEG?</i></h3>
 
           <vue-panel>
             <vue-panel-body>

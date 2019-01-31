@@ -32,11 +32,13 @@
                       <h4>The aims:</h4>
 
                       <ul>
-                          <li>Promote healthy and active lifestyle among the Network and students around Europe</li>
-                          <li>Raise awareness about health, well-being, social inclusion and integration</li>
-                          <li>Introduce and support a way of connecting students with their local community and volunteering in sport</li>
-                          <li>Support countries and sections in organising sports activities and events</li>
-                          <li>Initiate challenges and activities</li>
+                          <li>Promote <strong>healthy and active lifestyle</strong> among the Network and students around
+                              Europe</li>
+                          <li>Raise <strong>awareness</strong> about health, well-being, social inclusion and integration</li>
+                          <li>Introduce and support a way of connecting students with their <strong>local community</strong>
+                              and volunteering in sport</li>
+                          <li>Support countries and sections in organising <strong>sports activities</strong> and events</li>
+                          <li>Initiate <strong>challenges</strong> and activities</li>
                       </ul>
                       <h3></h3>
                       International Erasmus Games include three main sport disciplines: Football, Basketball, and Volleyball,
@@ -64,17 +66,18 @@
 
                 <vue-panel>
                     <vue-panel-body>
-                        ESN Paris wishes to echo the coming Olympic Games of Paris 2024 and the Rugby WorldCup Paris 2023.
+                        ESN Paris wishes to echo the coming <strong>Olympic Games of Paris 2024</strong> and the
+                        <strong>Rugby WorldCup Paris 2023.</strong>
                         Paris is a city firmly engaged in sports and international events. The International Erasmus
                         Games are a great opportunity for ESN Paris and ESN France to reach out to european partners by
-                        organizing an ambitious and federative event !<h3></h3>
+                        organizing an <strong>ambitious and federative event</strong> !<h3></h3>
 
                         For the very first time in France and in Paris, one of the greatest european realisations, the
-                        Erasmus+ Programme, will be brought forward through a sport tournament on an international
+                        <strong>Erasmus+ Programme</strong>, will be brought forward through a sport tournament on an international
                         dimension. It is a unique occasion, never a capital city like Paris has welcomed those games. It
                         is a chance for ESN Paris to bring the IEG to a new level, thanks to an important communication
-                        and mediatisation. The city will have the possibility to bring into view its values of welcoming,
-                        integration, and sports.<h3></h3>
+                        and mediatisation. The city will have the possibility to bring into view its values of
+                        <strong>welcoming, integration, and sports</strong>.<h3></h3>
 
                         The initiative is actively supported by all the associations that compose the network of ESN in
                         France for the organisation of IEG Paris, thus participates in the whole network animation.

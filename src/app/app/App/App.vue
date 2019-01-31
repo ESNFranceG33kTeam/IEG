@@ -62,6 +62,8 @@
                   <small>{{ $t('App.nav.media' /* Media */) }}</small>
               </router-link>
           </li>
+
+        
         <li>
           <a @click="localeSwitch('en')">
             <i>
@@ -70,6 +72,7 @@
             <small>English</small>
           </a>
         </li>
+        <!--
         <li>
           <a @click="localeSwitch('de')">
             <i>
@@ -78,6 +81,7 @@
             <small>French</small>
           </a>
         </li>
+        -->
       </ul>
     </vue-nav-bar>
 

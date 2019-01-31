@@ -63,6 +63,7 @@
         </vue-grid-item>
       </vue-grid-row>
 
+      <!--
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <h2>Suppliers</h2>
@@ -70,6 +71,7 @@
           <h6></h6>
         </vue-grid-item>
       </vue-grid-row>
+      -->
 
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">

@@ -43,6 +43,12 @@
                       <h3></h3>
                       International Erasmus Games include three main sport disciplines: Football, Basketball, and Volleyball,
                       and a fourth sport chosen by the organising section : Athletism.
+                      <router-link to="/sports">More details here.</router-link>
+
+                      <h3></h3>
+                      <a href="https://ieg.esn.org/" target="_blank">Want to know more about the IEG ? Discover the
+                          official website from ESN international.</a>
+                      <!--
                       <h3></h3>
                       The previous editions of IEG were organized by :
                       <ul>
@@ -51,8 +57,7 @@
                           <li>Porto, Portugal (2017)</li>
                           <li>Niš, Serbia (2018)</li>
                       </ul>
-                      <h3></h3>
-                      In 2019, Paris has been chosen to host the fifth IEG !
+                      -->
                   </vue-panel-body>
               </vue-panel>
           </vue-grid-item>
@@ -62,6 +67,7 @@
         <vue-grid-row>
 
             <vue-grid-item class="vueGridItem">
+                <h3 style="text-align:center">In 2019, Paris has been chosen to host the fifth IEG !</h3>
                 <h2>Why Paris ?</h2>
 
                 <vue-panel>
@@ -72,6 +78,12 @@
                         Games are a great opportunity for ESN Paris and ESN France to reach out to european partners by
                         organizing an <strong>ambitious and federative event</strong> !<h3></h3>
 
+                        This competition will be a great moment to bring forward Paris values of <strong>welcoming</strong>,
+                        <strong>integration</strong> and <strong>sports</strong>, but also values that import
+                        us as a local community : <strong>access to sports for everyone, well-being and sustainability</strong>.
+                        <router-link to="/candidacy">Click to discover more about our values !</router-link>
+
+                        <!--
                         For the very first time in France and in Paris, one of the greatest european realisations, the
                         <strong>Erasmus+ Programme</strong>, will be brought forward through a sport tournament on an international
                         dimension. It is a unique occasion, never a capital city like Paris has welcomed those games. It
@@ -87,6 +99,7 @@
                         <strong>sports for everyone, well-being and sustainability.</strong><h3></h3>
 
                         <router-link to="/candidacy">Click here to discover more about our values!</router-link>
+                        -->
                     </vue-panel-body>
                 </vue-panel>
             </vue-grid-item>

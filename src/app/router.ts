@@ -10,6 +10,7 @@ import {EventsRoutes}                    from './event/routes';
 import {CandidacyRoutes}                 from './candidacy/routes';
 import {ParticipantsRoutes}              from './participants/routes';
 import {SportsRoute}                     from "./sport/routes";
+import {MediaRoutes} from "./media/routes";
 
 Vue.use(VueRouter);
 Vue.use(Meta);
@@ -27,7 +28,8 @@ export const router: VueRouter = new VueRouter(
       ...EventsRoutes,
       ...CandidacyRoutes,
       ...ParticipantsRoutes,
-      ...SportsRoute
+      ...SportsRoute,
+      ...MediaRoutes
     ],
     scrollBehavior(to: Route, from: Route, savedPosition: { x: number, y: number }) {
       if (to.hash) {

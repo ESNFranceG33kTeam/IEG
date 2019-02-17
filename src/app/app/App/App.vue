@@ -55,7 +55,7 @@
               </router-link>
           </li>
           <li>
-              <router-link to="/components" @click.native="navBarClose">
+              <router-link to="/media" @click.native="navBarClose">
                 <i>
                   <img src="/logos/media.svg" alt="a journalist accreditation"/>
                 </i>

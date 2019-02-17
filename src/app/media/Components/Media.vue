@@ -21,9 +21,9 @@
           <h2>Read articles about the Games</h2>
 
           <vue-panel>
-            <vue-panel-body>
+            <vue-panel-body style="display: flow-root">
               <a target="_blank" href="https://esn.org/blog/international-erasmus-games">
-                <img :class="$style.imgCenter" src="/media/students.png" alt="several students doing an ola"/>
+                <img :class="$style.imgLeft" src="/media/students.png" alt="several students doing an ola"/>
               </a>
               <a href="https://esn.org/blog/international-erasmus-games" target="_blank">
                 https://esn.org/blog/international-erasmus-games

@@ -130,8 +130,8 @@
         <vue-grid-item>
           <h2>IEG International Committee Organization</h2>
           <vue-panel>
-            <vue-panel-body>
-              <img :class="$style.imgCenter" src="/team/committee.png" alt="International committee organization"/>
+            <vue-panel-body style="display: flow-root;">
+              <img :class="$style.imgLeft" src="/team/committee.png" alt="International committee organization"/>
               <p>
                 They are <strong>Aleksandra Seweryn</strong> (Community Manager), <strong>Hrvoje Grganovic</strong>
                 (Project Coordinator) and <strong>Zrinka Trusic</strong> (Communication Officer). The most amazing team to
@@ -147,8 +147,9 @@
         <vue-grid-item>
           <h2>Erasmus Student Network</h2>
           <vue-panel>
-            <vue-panel-body>
+            <vue-panel-body style="display:flow-root">
               <img :class="$style.imgLeft" alt="esn logo" src="/team/esnlogo.png"/>
+              <img :class="$style.imgRight" alt="esn logo" src="/team/esn.png"/>
               <p>
                 ESN is a <strong>network of associations</strong> created in Utrecht at the initiative of students who
                 were back from a year of an Erasmus exchange, in <strong>1989</strong>. Since, the network, structured
@@ -157,17 +158,11 @@
                 gathered around three missions: the reception and the inclusion of international students, the promotion
                 of international mobility and the network animation.
               </p>
-              <h3></h3>
-              <vue-grid-row>
-                <vue-grid-item>
-                  <img :class="$style.imgCenter" alt="esn logo" src="/team/esn.png"/>
-                </vue-grid-item>
-              </vue-grid-row>
 
               <h3></h3>
               <iframe src="https://www.youtube.com/embed/WQ071yzhUxI" width="100%"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
+                      allowfullscreen :class="$style.imgLeft"></iframe>
 
             </vue-panel-body>
           </vue-panel>
@@ -180,6 +175,7 @@
           <vue-panel>
             <vue-panel-body>
               <img :class="$style.imgLeft" src="/team/esnparis_logo.png" alt="ESN Paris logo" />
+              <img :class="$style.imgRight" src="/team/esnparis.png" alt="ESN Paris team" />
               <p>
                 ESN Paris is the local association taking care of the international students coming to Paris, with more
                 than <strong>130 activities</strong> a year (travels, visits, language exchange meetings, professional
@@ -189,12 +185,6 @@
                 <strong>Since the end of 2017</strong>, volunteers of ESN Paris have been working on the IEG, ensuring
                 the best welcome for the participants.
               </p>
-              <h3></h3>
-              <vue-grid-row>
-                <vue-grid-item>
-                  <img :class="$style.imgCenter" src="/team/esnparis.png" alt="ESN Paris team" />
-                </vue-grid-item>
-              </vue-grid-row>
             </vue-panel-body>
           </vue-panel>
 

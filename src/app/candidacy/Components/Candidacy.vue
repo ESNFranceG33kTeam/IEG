@@ -27,6 +27,7 @@
 
               <vue-panel>
                   <vue-panel-body>
+                      <img :class="$style.imgRight" src="/candidacy/way.png" alt="a student with a wheelchair"/>
                       The main topics of these IEG will be “<strong>sports for everyone</strong>” and
                       “<strong>Handisport</strong>”. With displays for disability open to all local people during the
                       weekend, we want to show that being in a handicap situation is not a fatality, and that a sport
@@ -36,8 +37,6 @@
                       provided by many volunteers during the whole year, and that echoes only during the paralympic games,
                       once every four years. Handisport was our priority when we applied and it will be at the heart of
                       the project.
-                      <h3></h3>
-                      <img :class="$style.imgCenter" src="/candidacy/way.png" alt="a student with a wheelchair"/>
                   </vue-panel-body>
               </vue-panel>
           </vue-grid-item>
@@ -86,6 +85,7 @@
 
                 <vue-panel>
                     <vue-panel-body>
+                        <img :class="$style.imgRight" src="/candidacy/flag.png" alt="students raising flags from all european countries"/>
                         The European question will also be at the heart of the year 2019 with elections coming by May and
                         Brexit. For the first time in France and in Paris, one of the greatest european creation,
                         <strong>the Erasmus program</strong>, will be brought to light by a sport competition at an
@@ -93,8 +93,6 @@
                         different european countries but <strong>ONE european citizenship defined by common values</strong>.
                         Is there a better way than sport to gather people? In France, founder country of Europe, it is
                         an important message to raise.
-                        <h3></h3>
-                        <img :class="$style.imgCenter" src="/candidacy/flag.png" alt="students raising flags from all european countries"/>
                     </vue-panel-body>
                 </vue-panel>
             </vue-grid-item>

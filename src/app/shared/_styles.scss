@@ -25,3 +25,14 @@
     max-width: 300px;
   }
 }
+
+.imgRight {
+  display: block;
+  max-width: 100%;
+
+  @include media(tabletPortrait) {
+    float: right;
+    margin: 3px 20px;
+    max-width: 300px;
+  }
+}

@@ -22,6 +22,7 @@
 
           <vue-panel>
             <vue-panel-body>
+              <img :class="$style.imgRight" src="/partners/rp.png" alt="a student doing some sport"/>
               Responsible Party is a project is run across Europe with more than <strong>174,000 students</strong>
               participating to date.
               <strong>Using the peer-to-peer approach student ambassadors are organizing activities during parties in a fun and
@@ -36,10 +37,6 @@
                 <li>Raise awareness among students about the health effects of alcohol consumption.</li>
                 <li>Contribute to the reduction of binge drinking and promote responsible drinking among students.</li>
               </ul>
-              <h3></h3>
-
-              <img :class="$style.imgCenter" src="/partners/rp.png" alt="a student doing some sport"/>
-
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>

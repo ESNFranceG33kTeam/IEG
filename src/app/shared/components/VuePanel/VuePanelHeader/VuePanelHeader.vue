@@ -73,8 +73,10 @@
 
     .subtitle {
       font-size:   $panel-header-subtitle-font-size;
-      font-weight: $panel-header-subtitle-font-weight;
-      color:       $panel-header-subtitle-color;
+      //font-weight: $panel-header-subtitle-font-weight;
+      //color:       $panel-header-subtitle-color;
+      font-weight:  bolder;
+      color:        #f47b20;
       display:     block;
     }
   }

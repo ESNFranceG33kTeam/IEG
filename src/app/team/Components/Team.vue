@@ -26,12 +26,12 @@
           <h3></h3>
 
           <vue-panel>
-            <vue-panel-header title="Julien Guillot" subtitle="Head of the OC"
+            <vue-panel-header title="Julien Guillot" subtitle="HEAD OF THE OC"
                               image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
             <vue-panel-body>
               <ul>
-                <li>ESN FRANCE VICE PRESIDENT</li>
-                <li>ESN PARIS ADMINISTRATOR</li>
+                <li>ESN France Vice-President</li>
+                <li>ESN Paris Administrator</li>
               </ul>
 
             </vue-panel-body>
@@ -41,12 +41,12 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Julie Nevant" subtitle="Vice-Head of the OC"
+            <vue-panel-header title="Julie Nevant" subtitle="VICE-HEAD OF THE OC"
                               image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
             <vue-panel-body>
               <ul>
-                <li>ESN FRANCE ADMINISTRATOR</li>
-                <li>ESN PARIS ADMINISTRATOR</li>
+                <li>ESN France Administrator</li>
+                <li>ESN Paris Administrator</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
@@ -55,13 +55,13 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Orane Maquin" subtitle="Communication Manager"
+            <vue-panel-header title="Orane Maquin" subtitle="COMMUNICATION MANAGER"
                               image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
             <vue-panel-body>
               <ul>
-                <li>ESN COMMUNICATION COMMITTEE CANDIDATE MEMBER</li>
-                <li>ESN FRANCE COMMUNICATION COMMITTEE MEMBER</li>
-                <li>ESN PARIS ADMINISTRATOR</li>
+                <li>ESN Communication Committee candidate member</li>
+                <li>ESN France Communication Committee member</li>
+                <li>ESN Paris Administrator</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
@@ -70,12 +70,12 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Damon Singleton" subtitle="Language Auditor, in charge of the International Relations"
+            <vue-panel-header title="Damon Singleton" subtitle="LANGUAGE AUDITOR, IN CHARGE OF THE INTERNATIONAL RELATIONS"
                               image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
             <vue-panel-body>
               <ul>
-                <li>ESN DIJON PRESIDENT</li>
-                <li>ESN FRANCE INTERNATIONAL COMMITTEE MEMBER</li>
+                <li>ESN Dijon President</li>
+                <li>ESN France International Committee member</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
@@ -86,11 +86,11 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="PHILIPPINE RAMIREZ" subtitle="Treasurer" image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
+            <vue-panel-header title="Philippine Ramirez" subtitle="TREASURER" image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
           </vue-panel>
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="SAMIA HANKI" subtitle="Logistics" image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
+            <vue-panel-header title="Samia Hanki" subtitle="LOGISTICS" image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
           </vue-panel>
         </vue-grid-item>
 
@@ -100,9 +100,9 @@
             <vue-panel-header title="PARTNERSHIP TEAM" />
             <vue-panel-body>
               <ul>
-                <li>YASSINE BERRADA</li>
-                <li>FADILE BHAYAT (ESN FRANCE TREASURER, ESN PARIS ADMINISTRATOR)</li>
-                <li>BAPTISTE POUJOL</li>
+                <li>Yassine Berrada</li>
+                <li>Fadile Bhayat (ESN France Treasurer, ESN Paris Administrator)</li>
+                <li>Baptiste Poujol</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
@@ -113,13 +113,13 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Rémy Raes" subtitle="Webmaster"
+            <vue-panel-header title="Rémy Raes" subtitle="WEBMASTER"
                               image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
             <vue-panel-body>
               <ul>
-                <li>FRENCH GEEK TEAM LEADER</li>
-                <li>ESN LILLE TOURIST</li>
-                <li>ESN FRANCE NATIONAL PLATFORMS CHAIR 2018-2019</li>
+                <li>French Geek Team Chair</li>
+                <li>ESN Lille tourist</li>
+                <li>ESN France National Platforms Chair 2018-2019</li>
               </ul>
             </vue-panel-body>
           </vue-panel>

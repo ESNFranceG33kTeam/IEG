@@ -27,7 +27,7 @@
 
           <vue-panel>
             <vue-panel-header title="Julien Guillot" subtitle="HEAD OF THE OC"
-                              image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
+                              image="/team/people/julien.jpg" />
             <vue-panel-body>
               <ul>
                 <li>ESN France Vice-President</li>
@@ -42,7 +42,7 @@
           <h3></h3>
           <vue-panel>
             <vue-panel-header title="Julie Nevant" subtitle="VICE-HEAD OF THE OC"
-                              image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
+                              image="/team/people/julie.jpg" />
             <vue-panel-body>
               <ul>
                 <li>ESN France Administrator</li>
@@ -56,7 +56,7 @@
           <h3></h3>
           <vue-panel>
             <vue-panel-header title="Orane Maquin" subtitle="COMMUNICATION MANAGER"
-                              image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
+                              image="/team/people/orane.jpg" />
             <vue-panel-body>
               <ul>
                 <li>ESN Communication Committee candidate member</li>
@@ -71,7 +71,7 @@
           <h3></h3>
           <vue-panel>
             <vue-panel-header title="Damon Singleton" subtitle="LANGUAGE AUDITOR, IN CHARGE OF THE INTERNATIONAL RELATIONS"
-                              image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
+                              image="/team/people/damon.jpg" />
             <vue-panel-body>
               <ul>
                 <li>ESN Dijon President</li>
@@ -86,11 +86,11 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Philippine Ramirez" subtitle="TREASURER" image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
+            <vue-panel-header title="Philippine Ramirez" subtitle="TREASURER" image="/team/people/philippine.jpg" />
           </vue-panel>
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Samia Hanki" subtitle="LOGISTICS" image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
+            <vue-panel-header title="Samia Hanki" subtitle="LOGISTICS" image="/team/people/samia.jpg" />
           </vue-panel>
         </vue-grid-item>
 
@@ -114,7 +114,7 @@
           <h3></h3>
           <vue-panel>
             <vue-panel-header title="Rémy Raes" subtitle="WEBMASTER"
-                              image="https://avatars2.githubusercontent.com/u/1667598?s=460&v=4" />
+                              image="/team/people/remy.jpg" />
             <vue-panel-body>
               <ul>
                 <li>French Geek Team Chair</li>

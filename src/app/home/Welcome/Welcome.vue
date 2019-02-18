@@ -8,7 +8,7 @@
         <vue-grid-item class="vueGridItem">
           <vue-panel class="vuePanel">
             <vue-panel-body>
-              <vue-icon-hashtag />
+              <vue-icon-i-e-g />
               <h3>IEG? What's that?</h3>
               <p>The International Erasmus Games are a sport event of <strong>Erasmus Student Network</strong>, gathering international
                 students for an unique competition.</p>
@@ -19,7 +19,7 @@
         <vue-grid-item class="vueGridItem">
           <vue-panel class="vuePanel">
             <vue-panel-body>
-              <vue-icon-hashtag />
+              <vue-icon-wanna />
               <h3>Wanna come?</h3>
               <p>Don't hesitate to consult our "Participants" tab, but also the program of the event, which is inside
                 the "event" one!</p>
@@ -30,7 +30,7 @@
         <vue-grid-item class="vueGridItem">
           <vue-panel class="vuePanel">
             <vue-panel-body>
-              <vue-icon-hashtag />
+              <vue-icon-mail />
               <h3>Contact us!</h3>
               <p>In case you have any problem, any question, please do not hesitate to reach us there: </p>
               <a href="mailto:ieg@esnparis.com">ieg@esnparis.com</a>
@@ -51,7 +51,9 @@
   import VueIconChartLine   from '../../shared/components/icons/VueIconChartLine/VueIconChartLine.vue';
   import VueIconCertificate from '../../shared/components/icons/VueIconCertificate/VueIconCertificate.vue';
   import VueIconFlag        from '../../shared/components/icons/VueIconFlag/VueIconFlag.vue';
-  import VueIconHashtag     from "../../shared/components/icons/VueIconHashtag/VueIconHashtag.vue";
+  import VueIconMail from "../../shared/components/icons/VueIconMail/VueIconMail.vue";
+  import VueIconWanna from "../../shared/components/icons/VueIconWanna/VueIconWanna.vue";
+  import VueIconIEG from "../../shared/components/icons/VueIconIEG/VueIconIEG.vue";
 
   export default {
     components: {
@@ -63,7 +65,9 @@
       VuePanel,
       VuePanelBody,
       VueGridRow,
-      VueIconHashtag
+      VueIconMail,
+      VueIconWanna,
+      VueIconIEG
     },
   };
 </script>

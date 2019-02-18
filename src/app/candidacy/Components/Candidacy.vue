@@ -84,7 +84,7 @@
                 <h2>European openness</h2>
 
                 <vue-panel>
-                    <vue-panel-body>
+                    <vue-panel-body style="display: flow-root">
                         <img :class="$style.imgRight" src="/candidacy/flag.png" alt="students raising flags from all european countries"/>
                         The European question will also be at the heart of the year 2019 with elections coming by May and
                         Brexit. For the first time in France and in Paris, one of the greatest european creation,

@@ -21,7 +21,7 @@
 
           <vue-panel>
             <vue-panel-body>
-              Starting mid-February
+              Starting on March
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>

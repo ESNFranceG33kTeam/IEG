@@ -97,13 +97,11 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="PARTNERSHIP TEAM" />
+            <vue-panel-header style="color:#f47b20" title="PARTNERSHIP TEAM" />
             <vue-panel-body>
-              <ul>
-                <li>Yassine Berrada</li>
-                <li>Fadile Bhayat (ESN France Treasurer, ESN Paris Administrator)</li>
-                <li>Baptiste Poujol</li>
-              </ul>
+              <vue-panel-header :class="$style.noHighlight" title="Yassine Berrada" subtitle="ESN Montpellier member" image="/team/people/yacine.jpg" />
+              <vue-panel-header :class="$style.noHighlight" title="Fadile Bhayat" subtitle="ESN France Treasurer, ESN Paris Administrator" image="/team/people/fadile.jpg" />
+              <vue-panel-header :class="$style.noHighlight" title="Baptiste Poujol" subtitle="ESN Paris member" image="/team/people/baptiste.jpg" />
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>

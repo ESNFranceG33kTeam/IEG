@@ -85,12 +85,21 @@
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <h3></h3>
-          <vue-panel>
-            <vue-panel-header title="Philippine Ramirez" subtitle="TREASURER" image="/team/people/philippine.jpg" />
-          </vue-panel>
           <h3></h3>
           <vue-panel>
             <vue-panel-header title="Samia Hanki" subtitle="LOGISTICS" image="/team/people/samia.jpg" />
+          </vue-panel>
+          <h3></h3>
+          <vue-panel>
+            <vue-panel-header title="Rémy Raes" subtitle="WEBMASTER"
+                              image="/team/people/remy.jpg" />
+            <vue-panel-body>
+              <ul>
+                <li>French Geek Team Chair</li>
+                <li>ESN Lille tourist</li>
+                <li>ESN France National Platforms Chair 2018-2019</li>
+              </ul>
+            </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
 
@@ -107,22 +116,14 @@
         </vue-grid-item>
       </vue-grid-row>
 
+      <!--
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <h3></h3>
-          <vue-panel>
-            <vue-panel-header title="Rémy Raes" subtitle="WEBMASTER"
-                              image="/team/people/remy.jpg" />
-            <vue-panel-body>
-              <ul>
-                <li>French Geek Team Chair</li>
-                <li>ESN Lille tourist</li>
-                <li>ESN France National Platforms Chair 2018-2019</li>
-              </ul>
-            </vue-panel-body>
-          </vue-panel>
+
         </vue-grid-item>
       </vue-grid-row>
+-->
 
       <vue-grid-row>
         <vue-grid-item>

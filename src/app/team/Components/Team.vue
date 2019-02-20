@@ -88,6 +88,11 @@
           <h3></h3>
           <vue-panel>
             <vue-panel-header title="Samia Hanki" subtitle="LOGISTICS" image="/team/people/samia.jpg" />
+            <vue-panel-body>
+              <ul>
+                <li>ESN Paris member</li>
+              </ul>
+            </vue-panel-body>
           </vue-panel>
           <h3></h3>
           <vue-panel>
@@ -96,7 +101,7 @@
             <vue-panel-body>
               <ul>
                 <li>French Geek Team Chair</li>
-                <li>ESN Lille tourist</li>
+                <li>ESN Lille member</li>
                 <li>ESN France National Platforms Chair 2018-2019</li>
               </ul>
             </vue-panel-body>
@@ -147,8 +152,8 @@
           <h2>Erasmus Student Network</h2>
           <vue-panel>
             <vue-panel-body style="display:flow-root">
-              <img :class="$style.imgLeft" alt="esn logo" src="/team/esnlogo.png"/>
-              <img :class="$style.imgRight" alt="esn logo" src="/team/esn.png"/>
+              <!--<img :class="$style.imgLeft" alt="esn logo" src="/team/esnlogo.png"/>-->
+              <img :class="$style.imgLeft" alt="esn logo" src="/team/esn.png"/>
               <p>
                 ESN is a <strong>network of associations</strong> created in Utrecht at the initiative of students who
                 were back from a year of an Erasmus exchange, in <strong>1989</strong>. Since, the network, structured
@@ -158,10 +163,12 @@
                 of international mobility and the network animation.
               </p>
 
+              <!--
               <h3></h3>
               <iframe src="https://www.youtube.com/embed/WQ071yzhUxI" width="100%"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen :class="$style.imgLeft"></iframe>
+                      -->
 
             </vue-panel-body>
           </vue-panel>
@@ -172,9 +179,9 @@
         <vue-grid-item>
           <h2>ESN Paris</h2>
           <vue-panel>
-            <vue-panel-body>
-              <img :class="$style.imgLeft" src="/team/esnparis_logo.png" alt="ESN Paris logo" />
-              <img :class="$style.imgRight" src="/team/esnparis.png" alt="ESN Paris team" />
+            <vue-panel-body style="display: flow-root">
+              <!-- <img :class="$style.imgLeft" src="/team/esnparis_logo.png" alt="ESN Paris logo" /> -->
+              <img :class="$style.imgLeft" src="/team/esnparis.png" alt="ESN Paris team" />
               <p>
                 ESN Paris is the local association taking care of the international students coming to Paris, with more
                 than <strong>130 activities</strong> a year (travels, visits, language exchange meetings, professional

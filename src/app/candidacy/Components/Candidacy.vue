@@ -48,7 +48,7 @@
 
                 <vue-panel>
                     <vue-panel-body>
-                        As young European citizen, it is our duty to take part in the commitments for a better future.
+                        As young European citizens, it is our duty to take part in the commitments for a better future.
                         The United Nations and European Union have adopted <strong>17 sustainable development
                         goals</strong>, and ESN international has targeted <strong>6 causes</strong> to support. It is
                         in this perspective of enhancing the importance of <strong>health and well-being</strong> that
@@ -91,7 +91,7 @@
                         <strong>the Erasmus program</strong>, will be brought to light by a sport competition at an
                         international level. Through this event, our goal is to show that there aren’t citizens from
                         different european countries but <strong>ONE european citizenship defined by common values</strong>.
-                        Is there a better way than sport to gather people? In France, founder country of Europe, it is
+                        Is there a better way than sport to gather people? In France, founding country of Europe, it is
                         an important message to raise.
                     </vue-panel-body>
                 </vue-panel>

@@ -34,7 +34,7 @@
                       <ul>
                           <li>Promote <strong>healthy and active lifestyle</strong> among the Network and students around
                               Europe</li>
-                          <li>Raise <strong>awareness</strong> about health, well-being, social inclusion and integration</li>
+                          <li>Raise <strong>awareness</strong> about health & well-being, social inclusion and integration</li>
                           <li>Introduce and support a way of connecting students with their <strong>local community</strong>
                               and volunteering in sport</li>
                           <li>Support countries and sections in organising <strong>sports activities</strong> and events</li>
@@ -42,7 +42,7 @@
                       </ul>
                       <h3></h3>
                       International Erasmus Games include three main sport disciplines: Football, Basketball, and Volleyball,
-                      and a fourth sport chosen by the organising section : Athletism.
+                      and a fourth sport chosen by the organising section. This year, it will be Athletism!
                       <router-link to="/sports">More details here.</router-link>
 
                       <h3></h3>
@@ -74,11 +74,11 @@
                     <vue-panel-body>
                         ESN Paris wishes to echo the coming <strong>Olympic Games of Paris 2024</strong> and the
                         <strong>Rugby WorldCup Paris 2023.</strong>
-                        Paris is a city firmly engaged in sports and international events. The International Erasmus
+                        Paris is a city firmly involved in sports and international events. The International Erasmus
                         Games are a great opportunity for ESN Paris and ESN France to reach out to european partners by
                         organizing an <strong>ambitious and federative event</strong> !<h3></h3>
 
-                        This competition will be a great moment to bring forward Paris values of <strong>welcoming</strong>,
+                        This competition will be a great moment to bring forward Paris' values of <strong>welcoming</strong>,
                         <strong>integration</strong> and <strong>sports</strong>, but also values that import
                         us as a local community : <strong>access to sports for everyone, well-being and sustainability</strong>.
                         <router-link to="/candidacy">Click to discover more about our values !</router-link>

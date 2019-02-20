@@ -23,7 +23,7 @@
           <vue-panel>
             <vue-panel-body>
               <img :class="$style.imgRight" src="/partners/rp.png" alt="a student doing some sport"/>
-              Responsible Party is a project is run across Europe with more than <strong>174,000 students</strong>
+              Responsible Party is a project which is run across Europe with more than <strong>174,000 students</strong>
               participating to date.
               <strong>Using the peer-to-peer approach student ambassadors are organizing activities during parties in a fun and
                 engaging way with the aim to raise awareness about the health effects of alcohol consumption.</strong>
@@ -88,7 +88,7 @@
               <li>Communicating with young people</li>
               <p>
               This event is for young international students all over Europe. They are around 20 to 25 years old.
-              Becoming a partner is a privilege way to address them and present them your brand.
+              Becoming a partner is a privileged way to address them and present them your brand.
               </p>
               <h3></h3>
 

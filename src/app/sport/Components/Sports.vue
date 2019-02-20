@@ -28,15 +28,21 @@
                           <li>A 100 m race (run the fastest you can upon 100m)</li>
                           <li>A 400m race (run the fastest you can upon 400m)</li>
                           <li>Long jump (jump the farthest you can)</li>
-                          <li>A mixt-gendered relay race  6 x 100m (all members of the team run, one by one. Each runner must
+                          <li>A mixt-gendered relay race 4 x 100m (all members of the team run, one by one. Each runner must
                               hand off the baton to the next runner within a certain zone).</li>
                       </ul>
                       <h3></h3>
 
+                      <!--
                       The idea is that there is a team representing each country that is composed by 3 men and 3 womens.
                       There will be one reprensentant per tria and per genderl (1 man for the 100m, 1 woman for the 100m,
                       1 man for the 400m etc.).
-                      To complete all that, a relay will gather the 6 membres of the team. <h3></h3>
+                      To complete all that, a relay will gather the 6 membres of the team.
+                       -->
+                      The idea is that there is a team representing each country composed by 2 men and 2 women. There
+                      will be one representant per gender and per trials for the 100m and the 400m. For the long jump,
+                      only one of the two representants per gender will compete. <br/>
+                      Finally, a relay will gather the 4 members of the team.<h3></h3>
 
                       The teams that will win most trials (so that will gain the most points) will go to finals to
                       measure themselves amongst the best.

@@ -15,18 +15,25 @@
     </div>
 
     <vue-grid>
-
+      <h2>Read articles about the Games</h2>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h2>Read articles about the Games</h2>
-
+          <h3></h3>
           <vue-panel>
             <vue-panel-body style="display: flow-root">
               <a target="_blank" href="https://esn.org/blog/international-erasmus-games">
-                <img :class="$style.imgLeft" src="/media/students.png" alt="several students doing an ola"/>
+                <img style="width:100%" src="/media/esn_blog.png" alt="several students doing an ola"/>
               </a>
-              <a href="https://esn.org/blog/international-erasmus-games" target="_blank">
-                https://esn.org/blog/international-erasmus-games
+            </vue-panel-body>
+          </vue-panel>
+        </vue-grid-item>
+
+        <vue-grid-item>
+          <h3></h3>
+          <vue-panel>
+            <vue-panel-body style="display: flow-root">
+              <a target="_blank" href="/media/article.pdf">
+                <img style="width:100%" src="/media/UT.png" alt="several students doing an ola"/>
               </a>
             </vue-panel-body>
           </vue-panel>
@@ -37,7 +44,7 @@
         <vue-grid-item class="vueGridItem">
           <h2>Social media</h2>
 
-          <vue-panel>
+          <vue-panel style="overflow: hidden">
             <vue-panel-body>
               <strong>Facebook page</strong>: <a target="_blank" href="https://www.facebook.com/InternationalErasmusGames">
               https://www.facebook.com/InternationalErasmusGames

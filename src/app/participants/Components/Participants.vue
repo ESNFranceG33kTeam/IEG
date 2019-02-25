@@ -85,7 +85,7 @@
           name:    'og:description',
           content: 'IEG - the official website of the International Erasmus Games.',
         },
-        { name: 'og:image:url', content: 'https://iegparis2019.com/favicon-96x96.png' },
+        { name: 'og:image:url', content: 'http://79.137.105.43/full_logo.png' },
       ],
     },
     components: {

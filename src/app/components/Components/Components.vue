@@ -604,7 +604,7 @@
           name:    'og:description',
           content: 'vue-starter - includes most common UI/UX use cases, for example: calendar, date picker, range slider, accordion and more!',
         },
-        { name: 'og:image:url', content: 'https://vue-starter.herokuapp.com/logo.png' },
+        { name: 'og:image:url', content: 'http://79.137.105.43/full_logo.png' },
 
         { name: 'twitter:card', content: 'summary' },
         { name: 'twitter:site', content: '@_jwerner_' },

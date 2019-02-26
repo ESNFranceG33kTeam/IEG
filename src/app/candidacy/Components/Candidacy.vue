@@ -11,7 +11,7 @@
             </p>
               <p>
                 The aim is to create throughout their stay, an event vector of profound and sustainable values, in
-                several domains such as health, well-being, social cohesion, education, solidarity and the respect of
+                several domains such as health, well-being, social inclusion, education, solidarity and the respect of
                 the environment.
               </p>
           </vue-grid-item>
@@ -64,14 +64,14 @@
 
         <vue-grid-row>
             <vue-grid-item class="vueGridItem">
-                <h2>Sports in exchanges</h2>
+                <h2>Sports on exchanges</h2>
 
                 <vue-panel>
                     <vue-panel-body>
                         Sport is often an issue during an international stay or an Erasmus exchange. Would we have enough
                         time to practise a sport ? Who should I contact ? What to do ?<br/>
                         Through an <strong>exhibition</strong> of several organisations, we are going to show that it is
-                        possible to stay in shape even abroad. Key point of the Erasmus program, sport is also a way to
+                        possible to stay in shape even abroad. Key point of the Erasmus+ programme, sport is also a way to
                         <strong>fight against intolerance and discrimination</strong>, two topics our organisation really
                         cares about.
                     </vue-panel-body>
@@ -87,10 +87,10 @@
                     <vue-panel-body style="display: flow-root">
                         <img :class="$style.imgRight" src="/candidacy/flag.png" alt="students raising flags from all european countries"/>
                         The European question will also be at the heart of the year 2019 with elections coming by May and
-                        Brexit. For the first time in France and in Paris, one of the greatest european creation,
-                        <strong>the Erasmus program</strong>, will be brought to light by a sport competition at an
+                        Brexit. For the first time in France and in Paris, one of the greatest European creations,
+                        <strong>the Erasmus+ programme</strong>, will be brought to light by a sport competition at an
                         international level. Through this event, our goal is to show that there aren’t citizens from
-                        different european countries but <strong>ONE european citizenship defined by common values</strong>.
+                        different European countries but <strong>ONE European citizenship defined by common values</strong>.
                         Is there a better way than sport to gather people? In France, founding country of Europe, it is
                         an important message to raise.
                     </vue-panel-body>

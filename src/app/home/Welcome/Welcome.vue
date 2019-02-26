@@ -32,7 +32,7 @@
             <vue-panel-body>
               <vue-icon-mail />
               <h3>Contact us!</h3>
-              <p>In case you have any problem, any question, please do not hesitate to reach us there: </p>
+              <p>In case you have any problems or questions, please do not hesitate to reach us there: </p>
               <a href="mailto:ieg@esnparis.com">ieg@esnparis.com</a>
             </vue-panel-body>
           </vue-panel>

@@ -21,7 +21,7 @@
 
           <vue-panel>
             <vue-panel-body>
-              Starting on March
+              Starting in March
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>

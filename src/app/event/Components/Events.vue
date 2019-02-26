@@ -47,7 +47,7 @@
 
                       <h3></h3>
                       <a href="https://ieg.esn.org/" target="_blank">Want to know more about the IEG ? Discover the
-                          official website from ESN international.</a>
+                          official website of the ESN international.</a>
                       <!--
                       <h3></h3>
                       The previous editions of IEG were organized by :
@@ -75,8 +75,8 @@
                         ESN Paris wishes to echo the coming <strong>Olympic Games of Paris 2024</strong> and the
                         <strong>Rugby WorldCup Paris 2023.</strong>
                         Paris is a city firmly involved in sports and international events. The International Erasmus
-                        Games are a great opportunity for ESN Paris and ESN France to reach out to european partners by
-                        organizing an <strong>ambitious and federative event</strong> !<h3></h3>
+                        Games are a great opportunity for ESN Paris and ESN France to reach out to European partners by
+                        organising an <strong>ambitious and federative event</strong>!<h3></h3>
 
                         This competition will be a great moment to bring forward Paris' values of <strong>welcoming</strong>,
                         <strong>integration</strong> and <strong>sports</strong>, but also values that import

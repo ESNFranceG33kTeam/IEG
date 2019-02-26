@@ -132,7 +132,7 @@
 
       <vue-grid-row>
         <vue-grid-item>
-          <h2>IEG International Committee Organization</h2>
+          <h2>IEG International Committee Organisation</h2>
           <vue-panel>
             <vue-panel-body style="display: flow-root;">
               <img :class="$style.imgLeft" src="/team/committee.png" alt="International committee organization"/>

@@ -7,7 +7,7 @@
           <vue-grid-item class="vueGridItem">
             <h1>{{ $t('App.nav.partners') }}</h1>
             <p>
-              Many thanks to all of our sponsors and partners which made possible the organization of the Games.
+              Many thanks to all of our sponsors and partners which made possible the organisation of the Games.
             </p>
           </vue-grid-item>
         </vue-grid-row>
@@ -79,15 +79,15 @@
             <vue-panel-body>
               <li>Visibility on a European level</li>
               <p>
-              This event targets young people coming from all part of Europe, or outside of Europe. From Spain to
-              Finland, Belgium to Greece ou Czech Republic to Romania, becoming a partner of our event will insure
-              visibility among all Europe and communication targeting a large public of european young communities.
+              This event targets young people coming from all parts of Europe, or outside of Europe. From Spain to
+              Finland, Belgium to Greece to the Czech Republic to Romania, becoming a partner of our event will ensure
+              visibility among all Europe and communication targeting a large public of young European communities.
               </p>
               <h3></h3>
 
               <li>Communicating with young people</li>
               <p>
-              This event is for young international students all over Europe. They are around 20 to 25 years old.
+              This event is for young international students from all over Europe. They are around 20 to 25 years old.
               Becoming a partner is a privileged way to address them and present them your brand.
               </p>
               <h3></h3>
@@ -98,16 +98,16 @@
               everyone</strong>, first of all, since these IEG will be the first edition to put forward disabled access
               to sports during the competition. <strong>Health</strong> and well being will be at the center of the event
               through diverse interventions. Finally, the European citizenship will also be central since the third day
-              of IEG coincides with the Europe Day organized by Paris city hall.  Few days from the European elections,
+              of IEG coincides with the Europe Day organised by Paris city hall. Few days from the European elections,
               it is a great opportunity to claim European values as yours too.
               </p>
               <h3></h3>
 
               <li>Becoming a contributor and contributing to the world of tomorrow</li>
               <p>
-              The future is already writing itself today. By becoming a partner of the event, but also of the ESN
-              network, you are contributing in the creation of the world of tomorrow and the citizenship of the new
-              generation of youth coming from all over Europe.
+              The future is already writing itself today. By becoming a partner of the event, but also of the Erasmus
+              Student Network, you are contributing in the creation of the world of tomorrow and the citizenship of the
+                new generation of youth coming from all over Europe.
               </p>
               <h3></h3>
 

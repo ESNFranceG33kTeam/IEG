@@ -7,7 +7,7 @@
           <vue-grid-item class="vueGridItem">
             <h1>{{ $t('App.nav.media') }}</h1>
             <p>
-              Wanna do some communication about the IEG? Check our social media?
+              Wanna do some communication about the IEG? Check our social media!
             </p>
           </vue-grid-item>
         </vue-grid-row>

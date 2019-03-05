@@ -33,10 +33,16 @@
               <vue-icon-mail />
               <h3>Contact us!</h3>
               <p>In case you have any problems or questions, please do not hesitate to reach us there: </p>
-              <a href="mailto:ieg@esnparis.com">ieg@esnparis.com</a>
+              <a href="mailto:ieg@esnparis.com">ieg2019@esn.paris</a>
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
+      </vue-grid-row>
+
+      <vue-grid-row>
+          <vue-button
+                  style="margin: 50px auto 20px auto" @click="redirect"
+          >Learn more about IEG</vue-button>
       </vue-grid-row>
     </vue-grid>
   </div>
@@ -54,6 +60,7 @@
   import VueIconMail from "../../shared/components/icons/VueIconMail/VueIconMail.vue";
   import VueIconWanna from "../../shared/components/icons/VueIconWanna/VueIconWanna.vue";
   import VueIconIEG from "../../shared/components/icons/VueIconIEG/VueIconIEG.vue";
+  import VueButton from "../../shared/components/VueButton/VueButton.vue";
 
   export default {
     components: {
@@ -67,8 +74,14 @@
       VueGridRow,
       VueIconMail,
       VueIconWanna,
-      VueIconIEG
+      VueIconIEG,
+      VueButton
     },
+      methods: {
+        redirect() {
+            window.open('https://ieg.esn.org', '_blank');
+        }
+      }
   };
 </script>
 

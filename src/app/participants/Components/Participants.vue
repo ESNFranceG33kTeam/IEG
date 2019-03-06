@@ -20,8 +20,9 @@
           <h2>Registration</h2>
 
           <vue-panel>
-            <vue-panel-body>
-              Starting in March
+            <vue-panel-body style="display:flow-root;">
+              <!-- Starting in March -->
+              <img style="width:100%" src="/dates/registration.jpg" alt="registration calendar"/>
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>

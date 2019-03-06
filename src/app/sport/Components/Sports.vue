@@ -47,7 +47,11 @@
                       The teams that will win most trials (so that will gain the most points) will go to finals to
                       measure themselves amongst the best.
 
-
+                      <h3></h3>
+                      <a target="_blank"
+                         href="https://docs.google.com/document/d/1cV2J3VAVdz-5t9wIbIlxav9-yXGNTfRKt2-uTucEJsw/edit?fbclid=IwAR1eomz3BZKu9jAkfDRQOim2ge2RBz9nSMYYXkXV9nLHqOdso4BlSenQ4pI">
+                          Read the sports rulebook here.
+                      </a>
                   </vue-panel-body>
               </vue-panel>
           </vue-grid-item>

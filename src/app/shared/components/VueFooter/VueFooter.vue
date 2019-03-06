@@ -7,6 +7,9 @@
         </vue-grid-item>
 
         <vue-grid-item>
+          <a href="https://esn.org/" target="_blank" rel="noopener">
+            <img src="/esnlogo.png" alt="Erasmus Student Network International logo" style="max-width:100px;margin-right:16px;"/>
+          </a>
           <a href="https://www.facebook.com/InternationalErasmusGames/" target="_blank" rel="noopener" aria-label="facebook page">
             <vue-icon-facebook />
           </a>

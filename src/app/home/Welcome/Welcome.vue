@@ -3,15 +3,14 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item fill class="vueGridItem">
-          <h2>Welcome!</h2>
+          <h2>{{ $t('Home.welcome') }}</h2>
         </vue-grid-item>
         <vue-grid-item class="vueGridItem">
           <vue-panel class="vuePanel">
             <vue-panel-body>
               <vue-icon-i-e-g />
-              <h3>IEG? What's that?</h3>
-              <p>The International Erasmus Games are a sport event of <strong>Erasmus Student Network</strong>, gathering international
-                students for an unique competition.</p>
+              <h3>{{ $t('Home.tile.ieg.title') }}</h3>
+              <p>{{ $t('Home.tile.ieg.text1') }} <strong>{{ $t('App.general.esn') }}</strong>{{ $t('Home.tile.ieg.text2') }}</p>
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
@@ -20,9 +19,8 @@
           <vue-panel class="vuePanel">
             <vue-panel-body>
               <vue-icon-wanna />
-              <h3>Wanna come?</h3>
-              <p>Don't hesitate to consult our "Participants" tab, but also the program of the event, which is inside
-                the "event" one!</p>
+              <h3>{{ $t('Home.tile.come.title') }}</h3>
+              <p>{{ $t('Home.tile.come.text') }}</p>
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
@@ -31,9 +29,9 @@
           <vue-panel class="vuePanel">
             <vue-panel-body>
               <vue-icon-mail />
-              <h3>Contact us!</h3>
-              <p>In case you have any problems or questions, please do not hesitate to reach us there: </p>
-              <a href="mailto:ieg@esnparis.com">ieg2019@esn.paris</a>
+              <h3>{{ $t('Home.tile.contact.title') }}</h3>
+              <p>{{ $t('Home.tile.contact.text') }}</p>
+              <a href="mailto:ieg@esnparis.com">{{ $t('Home.tile.contact.address') }}</a>
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
@@ -42,7 +40,7 @@
       <vue-grid-row>
           <vue-button
                   style="margin: 50px auto 20px auto" @click="redirect"
-          >Learn more about IEG</vue-button>
+          >{{ $t('Home.aboutLink') }}</vue-button>
       </vue-grid-row>
     </vue-grid>
   </div>

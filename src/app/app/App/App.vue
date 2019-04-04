@@ -72,7 +72,6 @@
             <small>English</small>
           </a>
         </li>
-        <!--
         <li>
           <a @click="localeSwitch('de')">
             <i>
@@ -81,7 +80,6 @@
             <small>French</small>
           </a>
         </li>
-        -->
       </ul>
     </vue-nav-bar>
 
@@ -93,7 +91,7 @@
       current-version="1.0.0"
       :cookie-consent-version="cookieConsentVersion"
       :set-cookie-consent-version="setCookieConsentVersion">
-      This website uses cookies to ensure you get a great experience while browsing.
+      {{ $t('App.general.cookies') }}
     </vue-cookie-consent>
   </div>
 </template>

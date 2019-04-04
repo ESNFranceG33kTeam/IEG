@@ -7,7 +7,7 @@
           <vue-grid-item class="vueGridItem">
             <h1>{{ $t('App.nav.participants') }}</h1>
             <p>
-              Any question about the event? Here are some information about registration.
+              {{ $t('Participants.subtitle') }}
             </p>
           </vue-grid-item>
         </vue-grid-row>
@@ -17,7 +17,7 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h2>Registration</h2>
+          <h2>{{ $t('Participants.registration.title') }}</h2>
 
           <vue-panel>
             <vue-panel-body style="display:flow-root;">
@@ -28,11 +28,11 @@
         </vue-grid-item>
 
         <vue-grid-item class="vueGridItem">
-          <h2>Survival guide</h2>
+          <h2>{{ $t('Participants.guide.title') }}</h2>
 
           <vue-panel>
             <vue-panel-body>
-              Released on April 18th.
+              {{ $t('Participants.guide.date') }}
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>

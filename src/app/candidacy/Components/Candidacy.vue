@@ -7,12 +7,10 @@
           <vue-grid-item class="vueGridItem">
             <h1>{{ $t('App.nav.candidacy') }}</h1>
             <p>
-                ESN Paris wishes to participate in the development of a sports project for international students.
+                {{ $t('Candidacy.subtitle1') }}
             </p>
               <p>
-                The aim is to create throughout their stay, an event vector of profound and sustainable values, in
-                several domains such as health, well-being, social inclusion, education, solidarity and the respect of
-                the environment.
+                  {{ $t('Candidacy.subtitle2') }}
               </p>
           </vue-grid-item>
         </vue-grid-row>
@@ -23,20 +21,12 @@
 
       <vue-grid-row>
           <vue-grid-item class="vueGridItem">
-              <h2>Disability: Sports for everyone</h2>
+              <h2>{{ $t('Candidacy.disability.title') }}</h2>
 
               <vue-panel>
                   <vue-panel-body>
-                      <img :class="$style.imgRight" src="/candidacy/way.png" alt="a student with a wheelchair"/>
-                      The main topics of these IEG will be “<strong>sports for everyone</strong>” and
-                      “<strong>Handisport</strong>”. With displays for disability open to all local people during the
-                      weekend, we want to show that being in a handicap situation is not a fatality, and that a sport
-                      activity can be practiced in high level. With the presence of handisport champions during the whole
-                      competition, the topic of handicap will be present during the 3 days of the event, and we hope that
-                      we will be able to raise awareness on this matter. Finally, we want to shed the light on the work
-                      provided by many volunteers during the whole year, and that echoes only during the paralympic games,
-                      once every four years. Handisport was our priority when we applied and it will be at the heart of
-                      the project.
+                      <img :class="$style.imgRight" src="/candidacy/way.png" :alt="this.$t('Candidacy.disability.image')"/>
+                      {{ $t('Candidacy.disability.text1') }}<strong>{{ $t('Candidacy.disability.text2') }}</strong>{{ $t('Candidacy.disability.text3') }}<strong>{{ $t('Candidacy.disability.text4') }}</strong>{{ $t('Candidacy.disability.text5') }}
                   </vue-panel-body>
               </vue-panel>
           </vue-grid-item>
@@ -44,19 +34,15 @@
 
         <vue-grid-row>
             <vue-grid-item class="vueGridItem">
-                <h2>Sustainability</h2>
+                <h2>{{ $t('Candidacy.sustainability.title') }}</h2>
 
                 <vue-panel>
                     <vue-panel-body>
-                        As young European citizens, it is our duty to take part in the commitments for a better future.
-                        The United Nations and European Union have adopted <strong>17 sustainable development
-                        goals</strong>, and ESN international has targeted <strong>6 causes</strong> to support. It is
-                        in this perspective of enhancing the importance of <strong>health and well-being</strong> that
-                        the IEG have been created among ESN. Hence, we consider it our mission to make it an outstanding
-                        example of a <strong>sustainable engaging event</strong>.
-                        As much as possible, we are encouraging all of our participants and volunteers to be the most
-                        environnement respectful : to conserve water, to reduce packing materials, to reduce use of
-                        plastic and paper, to limit transportation, to recycle and limit waste.
+                        {{ $t('Candidacy.sustainability.text1') }} <strong>{{ $t('Candidacy.sustainability.text2') }}</strong>{{ $t('Candidacy.sustainability.text3') }}
+                        <strong>{{ $t('Candidacy.sustainability.text4') }}</strong> {{ $t('Candidacy.sustainability.text5') }}
+                        <strong>{{ $t('Candidacy.sustainability.text6') }}</strong> {{ $t('Candidacy.sustainability.text7') }}
+                        <strong>{{ $t('Candidacy.sustainability.text8') }}</strong>.<br/>
+                        {{ $t('Candidacy.sustainability.text9') }}
                     </vue-panel-body>
                 </vue-panel>
             </vue-grid-item>
@@ -64,16 +50,13 @@
 
         <vue-grid-row>
             <vue-grid-item class="vueGridItem">
-                <h2>Sports on exchanges</h2>
+                <h2>{{ $t('Candidacy.sport.title') }}</h2>
 
                 <vue-panel>
                     <vue-panel-body>
-                        Sport is often an issue during an international stay or an Erasmus exchange. Would we have enough
-                        time to practise a sport ? Who should I contact ? What to do ?<br/>
-                        Through an <strong>exhibition</strong> of several organisations, we are going to show that it is
-                        possible to stay in shape even abroad. Key point of the Erasmus+ programme, sport is also a way to
-                        <strong>fight against intolerance and discrimination</strong>, two topics our organisation really
-                        cares about.
+                        {{ $t('Candidacy.sport.text1') }}<br/>
+                        {{ $t('Candidacy.sport.text2') }} <strong>{{ $t('Candidacy.sport.text3') }}</strong>
+                        {{ $t('Candidacy.sport.text4') }} <strong>{{ $t('Candidacy.sport.text5') }}</strong>{{ $t('Candidacy.sport.text6') }}
                     </vue-panel-body>
                 </vue-panel>
             </vue-grid-item>
@@ -81,18 +64,14 @@
 
         <vue-grid-row>
             <vue-grid-item class="vueGridItem">
-                <h2>European openness</h2>
+                <h2>{{ $t('Candidacy.openness.title') }}</h2>
 
                 <vue-panel>
                     <vue-panel-body style="display: flow-root">
-                        <img :class="$style.imgRight" src="/candidacy/flag.png" alt="students raising flags from all european countries"/>
-                        The European question will also be at the heart of the year 2019 with elections coming by May and
-                        Brexit. For the first time in France and in Paris, one of the greatest European creations,
-                        <strong>the Erasmus+ programme</strong>, will be brought to light by a sport competition at an
-                        international level. Through this event, our goal is to show that there aren’t citizens from
-                        different European countries but <strong>ONE European citizenship defined by common values</strong>.
-                        Is there a better way than sport to gather people? In France, founding country of Europe, it is
-                        an important message to raise.
+                        <img :class="$style.imgRight" src="/candidacy/flag.png" :alt="this.$t('Candidacy.openness.image')"/>
+                        {{ $t('Candidacy.openness.text1') }} <strong>{{ $t('Candidacy.openness.text2') }}</strong>{{ $t('Candidacy.openness.text3') }}
+                        <strong>{{ $t('Candidacy.openness.text4') }}</strong>.<br/>
+                        {{ $t('Candidacy.openness.text5') }}
                     </vue-panel-body>
                 </vue-panel>
             </vue-grid-item>

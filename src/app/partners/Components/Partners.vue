@@ -7,7 +7,7 @@
           <vue-grid-item class="vueGridItem">
             <h1>{{ $t('App.nav.partners') }}</h1>
             <p>
-              Many thanks to all of our sponsors and partners which made possible the organisation of the Games.
+              {{ $t('Partners.subtitle') }}
             </p>
           </vue-grid-item>
         </vue-grid-row>
@@ -18,24 +18,21 @@
 
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h2>Responsible Party</h2>
+          <h2>{{ $t('Partners.rp.title') }}</h2>
 
           <vue-panel>
             <vue-panel-body>
-              <img :class="$style.imgRight" src="/partners/rp.png" alt="a student doing some sport"/>
-              Responsible Party is a project which is run across Europe with more than <strong>174,000 students</strong>
-              participating to date.
-              <strong>Using the peer-to-peer approach student ambassadors are organizing activities during parties in a fun and
-                engaging way with the aim to raise awareness about the health effects of alcohol consumption.</strong>
+              <img :class="$style.imgRight" src="/partners/rp.png" :alt="this.$t('Partners.rp.image')"/>
+              {{ $t('Partners.rp.text1') }} <strong>{{ $t('Partners.rp.text2') }}</strong>
+              {{ $t('Partners.rp.text3') }} <strong>{{ $t('Partners.rp.text4') }}</strong>
               <h3></h3>
-              It's about <strong>smart and simple tips helping you and your friends to really enjoy the party:</strong>
-              making the night last longer while staying in good shape, avoiding excessive drinking and its dangerous
-              consequences, situations you would regret.
+              {{ $t('Partners.rp.text5') }} <strong>{{ $t('Partners.rp.text6') }}</strong>
+              {{ $t('Partners.rp.text7') }}
               <h3></h3>
-              Aims:
+              {{ $t('Partners.rp.aims') }}
               <ul>
-                <li>Raise awareness among students about the health effects of alcohol consumption.</li>
-                <li>Contribute to the reduction of binge drinking and promote responsible drinking among students.</li>
+                <li>{{ $t('Partners.rp.item1') }}</li>
+                <li>{{ $t('Partners.rp.item2') }}</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
@@ -44,16 +41,13 @@
 
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h2>Paris City Hall</h2>
+          <h2>{{ $t('Partners.town.title') }}</h2>
 
           <vue-panel>
             <vue-panel-body>
-              Thanks to it 21 deputy mayors, Paris city hall works all year for associations, and its national
-              and international outreach.
+              {{ $t('Partners.town.text1') }}
               <h3></h3>
-              Setting for the greatest sport tournaments of the world (Olympic Games, Rugby WorldCup, Football Euro,
-              Handball WorldCup…), the city of Paris is a major partner for the International Erasmus Games through
-              its logistical support and the lending of sport facilities.
+              {{ $t('Partners.town.text2') }}
             </vue-panel-body>
 
           </vue-panel>
@@ -72,58 +66,48 @@
 
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h2>Become a partner</h2>
-          <h3><i style="display: inline !important;">Why should you become a partner of the IEG?</i></h3>
+          <h2>{{ $t('Partners.become.title') }}</h2>
+          <h3><i style="display: inline !important;">{{ $t('Partners.become.subtitle') }}</i></h3>
 
           <vue-panel>
             <vue-panel-body>
-              <li>Visibility on a European level</li>
+              <li>{{ $t('Partners.become.item1') }}</li>
               <p>
-              This event targets young people coming from all parts of Europe, or outside of Europe. From Spain to
-              Finland, Belgium to Greece to the Czech Republic to Romania, becoming a partner of our event will ensure
-              visibility among all Europe and communication targeting a large public of young European communities.
+                {{ $t('Partners.become.text1') }}
               </p>
               <h3></h3>
 
-              <li>Communicating with young people</li>
+              <li>{{ $t('Partners.become.item2') }}</li>
               <p>
-              This event is for young international students from all over Europe. They are around 20 to 25 years old.
-              Becoming a partner is a privileged way to address them and present them your brand.
+                {{ $t('Partners.become.text2') }}
               </p>
               <h3></h3>
 
-              <li>Sharing values</li>
+              <li>{{ $t('Partners.become.values.title') }}</li>
               <p>
-              Becoming a partner is also about sharing the values we want to convey during this event. <strong>Sports for
-              everyone</strong>, first of all, since these IEG will be the first edition to put forward disabled access
-              to sports during the competition. <strong>Health</strong> and well being will be at the center of the event
-              through diverse interventions. Finally, the European citizenship will also be central since the third day
-              of IEG coincides with the Europe Day organised by Paris city hall. Few days from the European elections,
-              it is a great opportunity to claim European values as yours too.
+                {{ $t('Partners.become.values.text1') }} <strong>{{ $t('Partners.become.values.text2') }}</strong>
+                {{ $t('Partners.become.values.text3') }} <strong>{{ $t('Partners.become.values.text4') }}</strong>
+                {{ $t('Partners.become.values.text5') }}
               </p>
               <h3></h3>
 
-              <li>Becoming a contributor and contributing to the world of tomorrow</li>
+              <li>{{ $t('Partners.become.item3') }}</li>
               <p>
-              The future is already writing itself today. By becoming a partner of the event, but also of the Erasmus
-              Student Network, you are contributing in the creation of the world of tomorrow and the citizenship of the
-                new generation of youth coming from all over Europe.
+                {{ $t('Partners.become.text3') }}
               </p>
               <h3></h3>
 
-              <li>Profiting from a fiscal deduction</li>
+              <li>{{ $t('Partners.become.item4') }}</li>
               <p>
-              Your donations allow you to profit from a tax deduction on the revenue up to 60% to the limit of 5% of the
-              total revenue. Above that, the surplus can be carried over the next five years (Article 238 bis 1° of the
-              General Tax Code).
+                {{ $t('Partners.become.text4') }}
               </p>
               <h3></h3>
 
-              <h4>Contacts</h4>
+              <h4>{{ $t('Partners.contacts.title') }}</h4>
               <ul>
-                <li>yassine.berrada@iegparis2019.com</li>
-                <li>fadile.bhayat@iegparis2019.com</li>
-                <li>julien.guillot@iegparis2019.com</li>
+                <li>{{ $t('Partners.contacts.item1') }}</li>
+                <li>{{ $t('Partners.contacts.item2') }}</li>
+                <li>{{ $t('Partners.contacts.item3') }}</li>
               </ul>
             </vue-panel-body>
 

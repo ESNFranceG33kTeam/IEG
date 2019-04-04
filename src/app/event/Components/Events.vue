@@ -7,10 +7,10 @@
           <vue-grid-item class="vueGridItem">
             <h1>{{ $t('App.nav.events' /* Events */) }}</h1>
             <p>
-              What are the IEG ? Why Paris ?
+              {{ $t('Event.subtitle1') }}
             </p>
             <p>
-              You will find your answers here.
+              {{ $t('Event.subtitle2') }}
             </p>
           </vue-grid-item>
         </vue-grid-row>
@@ -21,33 +21,32 @@
       <vue-grid-row>
 
           <vue-grid-item class="vueGridItem">
-              <h2>What are the IEG ?</h2>
+              <h2>{{ $t('Event.ieg.title') }}</h2>
 
               <vue-panel>
                   <vue-panel-body>
-                      International Erasmus Games (IEG) is a sport event of <b>Erasmus Student Network</b> organised by a local
-                      section of the network.<br/>
-                      Every year, ESN members and international students (representing their host country) are gathered
-                      for a unique competition.<h3></h3>
+                      {{ $t('Event.ieg.text1') }} <b>Erasmus Student Network</b> {{ $t('Event.ieg.text2') }}<br/>
+                      {{ $t('Event.ieg.text3') }}<h3></h3>
                       <h4>The aims:</h4>
 
                       <ul>
-                          <li>Promote <strong>healthy and active lifestyle</strong> among the Network and students around
-                              Europe</li>
-                          <li>Raise <strong>awareness</strong> about health & well-being, social inclusion and integration</li>
-                          <li>Introduce and support a way of connecting students with their <strong>local community</strong>
-                              and volunteering in sport</li>
-                          <li>Support countries and sections in organising <strong>sports activities</strong> and events</li>
-                          <li>Initiate <strong>challenges</strong> and activities</li>
+                          <li>{{ $t('Event.ieg.aim1.text1') }} <strong>{{ $t('Event.ieg.aim1.text2') }}</strong>
+                              {{ $t('Event.ieg.aim1.text3') }}</li>
+                          <li>{{ $t('Event.ieg.aim2.text1') }} <strong>{{ $t('Event.ieg.aim2.text2') }}</strong>
+                              {{ $t('Event.ieg.aim2.text3') }}</li>
+                          <li>{{ $t('Event.ieg.aim3.text1') }} <strong>{{ $t('Event.ieg.aim3.text2') }}</strong>
+                              {{ $t('Event.ieg.aim3.text3') }}</li>
+                          <li>{{ $t('Event.ieg.aim4.text1') }} <strong>{{ $t('Event.ieg.aim4.text2') }}</strong>
+                              {{ $t('Event.ieg.aim4.text3') }}</li>
+                          <li>{{ $t('Event.ieg.aim5.text1') }} <strong>{{ $t('Event.ieg.aim5.text2') }}</strong>
+                              {{ $t('Event.ieg.aim5.text3') }}</li>
                       </ul>
                       <h3></h3>
-                      International Erasmus Games include three main sport disciplines: Football, Basketball, and Volleyball,
-                      and a fourth sport chosen by the organising section. This year, it will be Athletism!
-                      <router-link to="/sports">More details here.</router-link>
+                      {{ $t('Event.ieg.text4') }}
+                      <router-link to="/sports">{{ $t('Event.ieg.details') }}</router-link>
 
                       <h3></h3>
-                      <a href="https://ieg.esn.org/" target="_blank">Want to know more about the IEG ? Discover the
-                          official website of the ESN international.</a>
+                      <a href="https://ieg.esn.org/" target="_blank">{{ $t('Event.ieg.website') }}</a>
                       <!--
                       <h3></h3>
                       The previous editions of IEG were organized by :
@@ -68,20 +67,18 @@
 
             <vue-grid-item class="vueGridItem">
                 <h3 style="text-align:center">In 2019, Paris has been chosen to host the fifth IEG !</h3>
-                <h2>Why Paris ?</h2>
+                <h2>{{ $t('Event.paris.title') }}</h2>
 
                 <vue-panel>
                     <vue-panel-body>
-                        ESN Paris wishes to echo the coming <strong>Olympic Games of Paris 2024</strong> and the
-                        <strong>Rugby WorldCup Paris 2023.</strong>
-                        Paris is a city firmly involved in sports and international events. The International Erasmus
-                        Games are a great opportunity for ESN Paris and ESN France to reach out to European partners by
-                        organising an <strong>ambitious and federative event</strong>!<h3></h3>
+                        {{ $t('Event.paris.text1') }} <strong>{{ $t('Event.paris.text2') }}</strong> {{ $t('Event.paris.text3') }}
+                        <strong>{{ $t('Event.paris.text4') }}</strong>.
+                        {{ $t('Event.paris.text5') }} <strong>{{ $t('Event.paris.text6') }}</strong> !<h3></h3>
 
-                        This competition will be a great moment to bring forward Paris' values of <strong>welcoming</strong>,
-                        <strong>integration</strong> and <strong>sports</strong>, but also values that import
-                        us as a local community : <strong>access to sports for everyone, well-being and sustainability</strong>.
-                        <router-link to="/candidacy">Click to discover more about our values !</router-link>
+                        {{ $t('Event.paris.text7') }} <strong>{{ $t('Event.paris.text8') }} </strong> {{ $t('Event.paris.text9') }}
+                        <strong>{{ $t('Event.paris.text10') }}</strong>{{ $t('Event.paris.text11') }}
+                        <strong>{{ $t('Event.paris.text12') }}</strong>.
+                        <router-link to="/candidacy">{{ $t('Event.paris.values') }}</router-link>
 
                         <!--
                         For the very first time in France and in Paris, one of the greatest european realisations, the
@@ -109,12 +106,12 @@
         <vue-grid-row>
 
             <vue-grid-item class="vueGridItem">
-                <h2>Program</h2>
+                <h2>{{ $t('Event.program.title') }}</h2>
 
                 <vue-panel>
                     <vue-panel-body>
-                        IEG Paris will occur from May 2nd to 5th, 2019.<br/>
-                        Stay put, the full program will soon be released !
+                        {{ $t('Event.program.text1') }}<br/>
+                        {{ $t('Event.program.text2') }}
                     </vue-panel-body>
                 </vue-panel>
             </vue-grid-item>

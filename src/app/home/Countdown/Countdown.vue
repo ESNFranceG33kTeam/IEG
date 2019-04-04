@@ -3,7 +3,7 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item fill class="vueGridItem">
-            <h2 style="font-weight: bold">THE SHOW BEGINS IN</h2>
+            <h2 style="font-weight: bold">{{ $t('Home.countdown.text') }}</h2>
             <h1 style="font-weight: 300">{{ timeLeft }}</h1>
         </vue-grid-item>
       </vue-grid-row>
@@ -59,16 +59,16 @@
 
                 // Display the result in the countdown element
                 let time = '' + days;
-                time += (days === 1 ? ' day' : ' days') + ' - ' + hours + ' ' +
-                    (hours === 1 ? 'hour' : 'hours') + ' ' +
-                    minutes + ' ' + (minutes === 1 ? 'min' : 'mins') + ' ' +
-                    seconds + ' ' + (seconds === 1 ? 'sec' : 'secs');
+                time += ' ' + ([0, 1].includes(days) ? this.$t('Time.day') : this.$t('Time.days')) + ' - ' + hours + ' ' +
+                    ([0, 1].includes(hours) ? this.$t('Time.hour') : this.$t('Time.hours')) + ' ' +
+                    minutes + ' ' + ([0, 1].includes(minutes) ? this.$t('Time.minute') : this.$t('Time.minutes')) + ' ' +
+                    seconds + ' ' + ([0, 1].includes(seconds) ? this.$t('Time.second') : this.$t('Time.seconds'));
                 this.updateTime(time);
 
                 // If the count down is finished, write some text
                 if (distance < 0) {
                     clearInterval(countdown);
-                    this.timeLeft = 'It has started already!';
+                    this.timeLeft = this.$t('Time.elapsed');
                 }
             }, 1000);
         }

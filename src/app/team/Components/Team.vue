@@ -7,11 +7,10 @@
           <vue-grid-item class="vueGridItem">
             <h1>{{ $t('App.nav.team') }}</h1>
             <p>
-              Such a big event couldn't happen without a strong team.
+              {{ $t('Team.subtitle1') }}
             </p>
             <p>
-              That's why we want to show each and every member of our squad, and thank
-              them for their involvement in the Games.
+              {{ $t('Team.subtitle2') }}
             </p>
           </vue-grid-item>
         </vue-grid-row>
@@ -26,12 +25,12 @@
           <h3></h3>
 
           <vue-panel>
-            <vue-panel-header title="Julien Guillot" subtitle="HEAD OF THE OC"
+            <vue-panel-header title="Julien Guillot" :subtitle="this.$t('Team.julien.status')"
                               image="/team/people/julien.jpg" />
             <vue-panel-body>
               <ul>
-                <li>ESN France Vice-President</li>
-                <li>ESN Paris Administrator</li>
+                <li>{{ $t('Team.julien.item1') }}</li>
+                <li>{{ $t('Team.julien.item2') }}</li>
               </ul>
 
             </vue-panel-body>
@@ -41,12 +40,12 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Julie Nevant" subtitle="VICE-HEAD OF THE OC"
+            <vue-panel-header title="Julie Nevant" :subtitle="this.$t('Team.julie.status')"
                               image="/team/people/julie.jpg" />
             <vue-panel-body>
               <ul>
-                <li>ESN France Administrator</li>
-                <li>ESN Paris Administrator</li>
+                <li>{{ $t('Team.julie.item1') }}</li>
+                <li>{{ $t('Team.julie.item2') }}</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
@@ -55,13 +54,13 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Orane Maquin" subtitle="COMMUNICATION MANAGER"
+            <vue-panel-header title="Orane Maquin" :subtitle="this.$t('Team.orane.status')"
                               image="/team/people/orane.jpg" />
             <vue-panel-body>
               <ul>
-                <li>ESN Communication Committee candidate member</li>
-                <li>ESN France Communication Committee member</li>
-                <li>ESN Paris Administrator</li>
+                <li>{{ $t('Team.orane.item1') }}</li>
+                <li>{{ $t('Team.orane.item2') }}</li>
+                <li>{{ $t('Team.orane.item3') }}</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
@@ -70,12 +69,12 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Damon Singleton" subtitle="LANGUAGE AUDITOR, IN CHARGE OF THE INTERNATIONAL RELATIONS"
+            <vue-panel-header title="Damon Singleton" :subtitle="this.$t('Team.damon.status')"
                               image="/team/people/damon.jpg" />
             <vue-panel-body>
               <ul>
-                <li>ESN Dijon President</li>
-                <li>ESN France International Committee member</li>
+                <li>{{ $t('Team.damon.item1') }}</li>
+                <li>{{ $t('Team.damon.item2') }}</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
@@ -87,22 +86,22 @@
           <h3></h3>
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Samia Hanki" subtitle="LOGISTICS" image="/team/people/samia.jpg" />
+            <vue-panel-header title="Samia Hanki" :subtitle="this.$t('Team.samia.status')" image="/team/people/samia.jpg" />
             <vue-panel-body>
               <ul>
-                <li>ESN Paris member</li>
+                <li>{{ $t('Team.samia.item1') }}</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
           <h3></h3>
           <vue-panel>
-            <vue-panel-header title="Rémy Raes" subtitle="WEBMASTER"
+            <vue-panel-header title="Rémy Raes" :subtitle="this.$t('Team.remy.status')"
                               image="/team/people/remy.jpg" />
             <vue-panel-body>
               <ul>
-                <li>French Geek Team Chair</li>
-                <li>ESN Lille member</li>
-                <li>ESN France National Platforms Chair 2018-2019</li>
+                <li>{{ $t('Team.remy.item1') }}</li>
+                <li>{{ $t('Team.remy.item2') }}</li>
+                <li>{{ $t('Team.remy.item3') }}</li>
               </ul>
             </vue-panel-body>
           </vue-panel>
@@ -111,11 +110,11 @@
         <vue-grid-item class="vueGridItem">
           <h3></h3>
           <vue-panel>
-            <vue-panel-header style="color:#f47b20" title="PARTNERSHIP TEAM" />
+            <vue-panel-header style="color:#f47b20" :title="this.$t('Team.partners.title')" />
             <vue-panel-body>
-              <vue-panel-header :class="$style.noHighlight" title="Yassine Berrada" subtitle="ESN Montpellier member" image="/team/people/yacine.jpg" />
-              <vue-panel-header :class="$style.noHighlight" title="Fadile Bhayat" subtitle="ESN France Treasurer, ESN Paris Administrator" image="/team/people/fadile.jpg" />
-              <vue-panel-header :class="$style.noHighlight" title="Baptiste Poujol" subtitle="ESN Paris member" image="/team/people/baptiste.jpg" />
+              <vue-panel-header :class="$style.noHighlight" title="Yassine Berrada" :subtitle="this.$t('Team.partners.yassine')" image="/team/people/yacine.jpg" />
+              <vue-panel-header :class="$style.noHighlight" title="Fadile Bhayat" :subtitle="this.$t('Team.partners.fadile')" image="/team/people/fadile.jpg" />
+              <vue-panel-header :class="$style.noHighlight" title="Baptiste Poujol" :subtitle="this.$t('Team.partners.baptiste')" image="/team/people/baptiste.jpg" />
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
@@ -132,14 +131,13 @@
 
       <vue-grid-row>
         <vue-grid-item>
-          <h2>IEG International Committee Organisation</h2>
+          <h2>{{ $t('Team.ieg.title') }}</h2>
           <vue-panel>
             <vue-panel-body style="display: flow-root;">
-              <img :class="$style.imgLeft" src="/team/committee.png" alt="International committee organization"/>
+              <img :class="$style.imgLeft" src="/team/committee.png" :alt="this.$t('Team.ieg.image')"/>
               <p>
-                They are <strong>Aleksandra Seweryn</strong> (Community Manager), <strong>Hrvoje Grganovic</strong>
-                (Project Coordinator) and <strong>Zrinka Trusic</strong> (Communication Officer). The most amazing team to
-                work with and make sure the IEG doesn’t turn in a complete disaster !
+                {{ $t('Team.ieg.text1') }} <strong>Aleksandra Seweryn</strong> {{ $t('Team.ieg.text2') }} <strong>Hrvoje Grganovic</strong>
+                {{ $t('Team.ieg.text3') }} <strong>Zrinka Trusic</strong> {{ $t('Team.ieg.text4') }}
               </p>
             </vue-panel-body>
           </vue-panel>
@@ -153,14 +151,12 @@
           <vue-panel>
             <vue-panel-body style="display:flow-root">
               <!--<img :class="$style.imgLeft" alt="esn logo" src="/team/esnlogo.png"/>-->
-              <img :class="$style.imgLeft" alt="esn logo" src="/team/esn.png"/>
+              <img :class="$style.imgLeft" :alt="this.$t('Team.esn.image')" src="/team/esn.png"/>
               <p>
-                ESN is a <strong>network of associations</strong> created in Utrecht at the initiative of students who
-                were back from a year of an Erasmus exchange, in <strong>1989</strong>. Since, the network, structured
-                in three levels (local, national, international) kept growing. It includes <strong>39</strong> countries
-                and <strong>525 local associations</strong> in total. France counts <strong>36 local associations</strong>,
-                gathered around three missions: the reception and the inclusion of international students, the promotion
-                of international mobility and the network animation.
+                {{ $t('Team.esn.text1') }} <strong>{{ $t('Team.esn.text2') }}</strong> {{ $t('Team.esn.text3') }}
+                <strong>1989</strong>{{ $t('Team.esn.text5') }} <strong>39</strong> {{ $t('Team.esn.text6') }}
+                <strong>{{ $t('Team.esn.text7') }}</strong> {{ $t('Team.esn.text8') }}
+                <strong>{{ $t('Team.esn.text9') }}</strong>, {{ $t('Team.esn.text10') }}
               </p>
 
               <!--
@@ -181,15 +177,12 @@
           <vue-panel>
             <vue-panel-body style="display: flow-root">
               <!-- <img :class="$style.imgLeft" src="/team/esnparis_logo.png" alt="ESN Paris logo" /> -->
-              <img :class="$style.imgLeft" src="/team/esnparis.png" alt="ESN Paris team" />
+              <img :class="$style.imgLeft" src="/team/esnparis.png" :alt="this.$t('Team.paris.image')" />
               <p>
-                ESN Paris is the local association taking care of the international students coming to Paris, with more
-                than <strong>130 activities</strong> a year (travels, visits, language exchange meetings, professional
-                trainings, parties, etc.). Our volunteers help them getting settled in their new city, providing
-                administrative help, buddies, and discounts with our partners. We also promote <strong>international
-                mobility</strong> through intervention in forums, schools, and universities.<br/>
-                <strong>Since the end of 2017</strong>, volunteers of ESN Paris have been working on the IEG, ensuring
-                the best welcome for the participants.
+                {{ $t('Team.paris.text1') }} <strong>{{ $t('Team.paris.text2') }}</strong>
+                {{ $t('Team.paris.text3') }} <strong>{{ $t('Team.paris.text4') }}</strong>
+                {{ $t('Team.paris.text5') }} <br/><strong>{{ $t('Team.paris.text6') }}</strong>,
+                {{ $t('Team.paris.text7') }}
               </p>
             </vue-panel-body>
           </vue-panel>
@@ -291,52 +284,6 @@
       VuePanelBody,
       VuePanelFooter,
       VueGridRow,
-    },
-    computed:   {
-      today(): Date {
-        const today: Date = new Date();
-
-        return new Date(today.getFullYear(), today.getMonth(), today.getDate());
-      },
-      nextWeek(): Date {
-        return new Date(this.today.getTime() + 7 * 24 * 60 * 60 * 1000);
-      },
-    },
-    data(): any {
-      return {
-        images:              [
-          {
-            alt:       'Slide 1',
-            copyright: 'unsplash.com/@hahnbo',
-            url:       'https://images.unsplash.com/photo-1485932465394-d20cc595f08b?ixlib=rb-0.3.5&s=e8798191cfef2e78f4ac91e71c92ea57&auto=format&fit=crop&w=3750&q=80',
-          },
-          {
-            alt:       'Slide 2',
-            copyright: 'unsplash.com/@mitr',
-            url:       'https://images.unsplash.com/photo-1486068338746-bc8c63a2d7ea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=348afc4c4ac324a022630fbce9204348&auto=format&fit=crop&w=3890&q=80',
-          },
-          {
-            alt:       'Slide 3',
-            copyright: 'unsplash.com/@peter_oslanec',
-            url:       'https://images.unsplash.com/photo-1517365884913-3c33884b06fa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05c7363bcb2c0a2c2241e6cdcf0dfb8b&auto=format&fit=crop&w=1234&q=80',
-          },
-          {
-            alt:       'Slide 4',
-            copyright: 'unsplash.com/@ihs_photo',
-            url:       'https://images.unsplash.com/photo-1496348323715-c11f0fc6aeed?ixlib=rb-0.3.5&s=52406f147b73f1000c032dcc5e4e0aea&auto=format&fit=crop&w=1388&q=80',
-          },
-          {
-            alt:       'Slide 5',
-            copyright: 'unsplash.com/@parkamstutz',
-            url:       'https://images.unsplash.com/photo-1528150395403-992a693e26c8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0651fee03ef0f9dad95014a45adf898a&auto=format&fit=crop&w=1234&q=80',
-          },
-          {
-            alt:       'Slide 6',
-            copyright: 'unsplash.com/@mrandybae',
-            url:       'https://images.unsplash.com/photo-1492970471430-bc6bd7eb2b13?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9893bc89e46e2b77a5d8c091fbba04e9&auto=format&fit=crop&w=2710&q=80',
-          }
-        ]
-      };
     }
   };
 </script>

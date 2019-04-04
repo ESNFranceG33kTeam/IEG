@@ -18,18 +18,17 @@
       <vue-grid-row>
 
           <vue-grid-item class="vueGridItem">
-              <h2>This year: Athletics</h2>
+              <h2>{{ $t('Sports.athletics.title') }}</h2>
 
               <vue-panel>
                   <vue-panel-body>
 
-                      Athletics will be composed of 4 trials :
+                      {{ $t('Sports.athletics.text1') }}
                       <ul>
-                          <li>A 100 m race (run the fastest you can upon 100m)</li>
-                          <li>A 400m race (run the fastest you can upon 400m)</li>
-                          <li>Long jump (jump the farthest you can)</li>
-                          <li>A mixt-gendered relay race 4 x 100m (all members of the team run, one by one. Each runner must
-                              hand off the baton to the next runner within a certain zone).</li>
+                          <li>{{ $t('Sports.athletics.item1') }}</li>
+                          <li>{{ $t('Sports.athletics.item2') }}</li>
+                          <li>{{ $t('Sports.athletics.item3') }}</li>
+                          <li>{{ $t('Sports.athletics.item4') }}</li>
                       </ul>
                       <h3></h3>
 
@@ -39,18 +38,15 @@
                       1 man for the 400m etc.).
                       To complete all that, a relay will gather the 6 membres of the team.
                        -->
-                      The idea is that there is a team representing each country composed by 2 men and 2 women. There
-                      will be one representant per gender and per trials for the 100m and the 400m. For the long jump,
-                      only one of the two representants per gender will compete. <br/>
-                      Finally, a relay will gather the 4 members of the team.<h3></h3>
+                      {{ $t('Sports.athletics.text2') }}<br/>
+                      {{ $t('Sports.athletics.text3') }}<h3></h3>
 
-                      The teams that will win most trials (so that will gain the most points) will go to finals to
-                      measure themselves amongst the best.
+                      {{ $t('Sports.athletics.text4') }}
 
                       <h3></h3>
                       <a target="_blank"
                          href="https://docs.google.com/document/d/1cV2J3VAVdz-5t9wIbIlxav9-yXGNTfRKt2-uTucEJsw/edit?fbclid=IwAR1eomz3BZKu9jAkfDRQOim2ge2RBz9nSMYYXkXV9nLHqOdso4BlSenQ4pI">
-                          Read the sports rulebook here.
+                          {{ $t('Sports.athletics.rulebook') }}
                       </a>
                   </vue-panel-body>
               </vue-panel>
@@ -61,13 +57,12 @@
         <vue-grid-row>
 
             <vue-grid-item class="vueGridItem">
-                <h2>Facilities</h2>
+                <h2>{{ $t('Sports.facility.title') }}</h2>
 
                 <vue-panel>
                     <vue-panel-body>
                         <p>
-                            The competition will take place in the Suzanne Lenglen Stadium situated in the 15th
-                            arrondissement of Paris.
+                            {{ $t('Sports.facility.text') }}
                         </p>
                         <h3></h3>
 

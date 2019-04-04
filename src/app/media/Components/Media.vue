@@ -7,7 +7,7 @@
           <vue-grid-item class="vueGridItem">
             <h1>{{ $t('App.nav.media') }}</h1>
             <p>
-              Wanna do some communication about the IEG? Check our social media!
+              {{ $t('Media.subtitle') }}
             </p>
           </vue-grid-item>
         </vue-grid-row>
@@ -15,7 +15,7 @@
     </div>
 
     <vue-grid>
-      <h2>Read articles about the Games</h2>
+      <h2>{{ $t('Media.articles') }}</h2>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <h3></h3>
@@ -42,17 +42,17 @@
 
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h2>Social media</h2>
+          <h2>{{ $t('Media.social') }}</h2>
 
           <vue-panel style="overflow: hidden">
             <vue-panel-body>
-              <strong>Facebook page</strong>: <a target="_blank" href="https://www.facebook.com/InternationalErasmusGames">
+              <strong>{{ $t('Media.fb') }}</strong> : <a target="_blank" href="https://www.facebook.com/InternationalErasmusGames">
               https://www.facebook.com/InternationalErasmusGames
             </a> <br/>
-              <strong>Facebook event</strong>: <a href="https://www.facebook.com/events/282458452425283/" target="_blank">
+              <strong>{{ $t('Media.event') }}</strong> : <a href="https://www.facebook.com/events/282458452425283/" target="_blank">
               https://www.facebook.com/events/282458452425283/
             </a><br/>
-              <strong>Instagram profile:</strong> <a target="_blank" href="https://www.instagram.com/internationalerasmusgames/">
+              <strong>{{ $t('Media.instagram') }}</strong> : <a target="_blank" href="https://www.instagram.com/internationalerasmusgames/">
               https://www.instagram.com/internationalerasmusgames/
             </a>
 

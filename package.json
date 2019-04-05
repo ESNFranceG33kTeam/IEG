@@ -29,7 +29,7 @@
     "default-locale": "en",
     "supported-locales": [
       "en",
-      "de"
+      "fr"
     ]
   },
   "dependencies": {

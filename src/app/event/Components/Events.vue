@@ -27,7 +27,7 @@
                   <vue-panel-body>
                       {{ $t('Event.ieg.text1') }} <b>Erasmus Student Network</b> {{ $t('Event.ieg.text2') }}<br/>
                       {{ $t('Event.ieg.text3') }}<h3></h3>
-                      <h4>The aims:</h4>
+                      <h4>{{ $t('Event.ieg.aims') }}</h4>
 
                       <ul>
                           <li>{{ $t('Event.ieg.aim1.text1') }} <strong>{{ $t('Event.ieg.aim1.text2') }}</strong>

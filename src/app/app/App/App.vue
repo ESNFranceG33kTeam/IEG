@@ -73,7 +73,7 @@
           </a>
         </li>
         <li>
-          <a @click="localeSwitch('de')">
+          <a @click="localeSwitch('fr')">
             <i>
               <img src="/logos/fr.svg" alt="french flag"/>
             </i>

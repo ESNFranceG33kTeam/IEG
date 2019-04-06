@@ -32,7 +32,8 @@
         },
         data(): any {
             return {
-                timeLeft: 'countdown'
+                timeLeft: 'countdown',
+                countdown: null
             };
         },
         methods: {
@@ -43,7 +44,7 @@
         mounted() {
             // countdown
             const countDownDate = new Date('May 2, 2019 10:00:00').getTime();
-            const countdown = setInterval(() => {
+            this.countdown = setInterval(() => {
 
                 // Get todays date and time
                 const now = new Date().getTime();
@@ -67,10 +68,13 @@
 
                 // If the count down is finished, write some text
                 if (distance < 0) {
-                    clearInterval(countdown);
+                    clearInterval(this.countdown);
                     this.timeLeft = this.$t('Time.elapsed');
                 }
             }, 1000);
+        },
+        beforeDestroy() {
+            clearInterval(this.countdown);
         }
     };
 </script>

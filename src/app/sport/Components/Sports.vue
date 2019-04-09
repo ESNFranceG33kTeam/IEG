@@ -45,7 +45,8 @@
 
                       <h3></h3>
                       <a target="_blank"
-                         href="https://docs.google.com/document/d/1cV2J3VAVdz-5t9wIbIlxav9-yXGNTfRKt2-uTucEJsw/edit?fbclid=IwAR1eomz3BZKu9jAkfDRQOim2ge2RBz9nSMYYXkXV9nLHqOdso4BlSenQ4pI">
+                         href="/sports/rulebook.pdf">
+                         <!-- "https://docs.google.com/document/d/1cV2J3VAVdz-5t9wIbIlxav9-yXGNTfRKt2-uTucEJsw/edit?fbclid=IwAR1eomz3BZKu9jAkfDRQOim2ge2RBz9nSMYYXkXV9nLHqOdso4BlSenQ4pI" -->
                           {{ $t('Sports.athletics.rulebook') }}
                       </a>
                   </vue-panel-body>

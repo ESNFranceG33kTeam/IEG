@@ -54,6 +54,19 @@
         </vue-grid-item>
       </vue-grid-row>
 
+      <vue-grid-row>
+        <vue-grid-item class="vueGridItem">
+          <h2>Jo&Joe Hostel, Paris-Gentilly</h2>
+
+          <vue-panel>
+            <vue-panel-body>
+                <img :class="$style.imgCenter" src="/partners/jojoe.jpg" alt="chambre hotel"/>
+            </vue-panel-body>
+
+          </vue-panel>
+        </vue-grid-item>
+      </vue-grid-row>
+
       <!--
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">

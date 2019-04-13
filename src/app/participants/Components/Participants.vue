@@ -17,13 +17,13 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <h2>{{ $t('Participants.registration.title') }}</h2>
+          <h2>Jo&Joe Hostel, Paris-Gentilly</h2>
 
           <vue-panel>
-            <vue-panel-body style="display:flow-root;">
-              <!-- Starting in March -->
-              <img style="width:100%" src="/dates/registration.jpg" alt="registration calendar"/>
+            <vue-panel-body>
+              <img :class="$style.imgCenter" src="/partners/jojoe.jpg" alt="chambre hotel"/>
             </vue-panel-body>
+
           </vue-panel>
         </vue-grid-item>
 
@@ -36,6 +36,7 @@
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
+
 
       </vue-grid-row>
 

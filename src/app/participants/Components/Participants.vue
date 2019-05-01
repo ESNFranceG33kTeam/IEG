@@ -32,7 +32,10 @@
 
           <vue-panel>
             <vue-panel-body>
-              {{ $t('Participants.guide.date') }}
+              <a target="_blank"
+                 href="/guide.pdf">
+                {{ $t('Participants.guide.date') }}
+              </a>
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>

@@ -39,6 +39,7 @@
         </vue-grid-item>
       </vue-grid-row>
 
+        <!--
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <h2>{{ $t('Partners.town.title') }}</h2>
@@ -54,6 +55,7 @@
         </vue-grid-item>
       </vue-grid-row>
 
+-->
       <!--
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
@@ -63,6 +65,104 @@
         </vue-grid-item>
       </vue-grid-row>
       -->
+
+        <vue-grid-row>
+            <vue-grid-item class="vueGridItem">
+                <h3></h3>
+                <vue-panel>
+                    <vue-panel-body style="display: flow-root">
+                        <a target="_blank" href="https://www.u-paris2.fr/fr">
+                            <img style="width:100%" src="/partners/assas.png" alt="assas logo"/>
+                        </a>
+                    </vue-panel-body>
+                </vue-panel>
+            </vue-grid-item>
+
+            <vue-grid-item>
+                <h3></h3>
+                <vue-panel>
+                    <vue-panel-body style="display: flow-root">
+                        <a target="_blank" href="https://www.eurosender.com/">
+                            <img style="width:100%" src="/partners/eurosender.png" alt="eurosender logo"/>
+                        </a>
+                    </vue-panel-body>
+                </vue-panel>
+            </vue-grid-item>
+        </vue-grid-row>
+
+        <vue-grid-row>
+            <vue-grid-item class="vueGridItem">
+                <h3></h3>
+                <vue-panel>
+                    <vue-panel-body style="display: flow-root">
+                        <a target="_blank" href="http://www.ffvb.org/">
+                            <img style="width:100%" src="/partners/ffvolley.png" alt="several students doing an ola"/>
+                        </a>
+                    </vue-panel-body>
+                </vue-panel>
+            </vue-grid-item>
+
+            <vue-grid-item>
+                <h3></h3>
+                <vue-panel>
+                    <vue-panel-body style="display: flow-root">
+                        <a target="_blank" href="https://www.giveavote.eu/">
+                            <img style="width:100%" src="/partners/giveavote.png" alt="several students doing an ola"/>
+                        </a>
+                    </vue-panel-body>
+                </vue-panel>
+            </vue-grid-item>
+        </vue-grid-row>
+
+        <vue-grid-row>
+            <vue-grid-item class="vueGridItem">
+                <h3></h3>
+                <vue-panel>
+                    <vue-panel-body style="display: flow-root">
+                        <a target="_blank" href="https://www.facebook.com/handisportrethelois/">
+                            <img style="width:100%" src="/partners/handisport.png" alt="assas logo"/>
+                        </a>
+                    </vue-panel-body>
+                </vue-panel>
+            </vue-grid-item>
+
+            <vue-grid-item>
+                <h3></h3>
+                <vue-panel>
+                    <vue-panel-body style="display: flow-root">
+                        <a target="_blank" href="https://www.joandjoe.com">
+                            <img style="width:100%" src="/partners/jo&joe.png" alt="eurosender logo"/>
+                        </a>
+                    </vue-panel-body>
+                </vue-panel>
+            </vue-grid-item>
+        </vue-grid-row>
+
+        <vue-grid-row>
+            <vue-grid-item class="vueGridItem">
+                <h3></h3>
+                <vue-panel>
+                    <vue-panel-body style="display: flow-root">
+                        <a target="_blank" href="https://www.paris.fr/">
+                            <img style="width:100%" src="/partners/paris.png" alt="several students doing an ola"/>
+                        </a>
+                    </vue-panel-body>
+                </vue-panel>
+            </vue-grid-item>
+
+            <vue-grid-item>
+                <h3></h3>
+                <vue-panel>
+                    <vue-panel-body style="display: flow-root">
+                        <a target="_blank" href="https://www.esn.org/responsible-party">
+                            <img style="width:100%" src="/partners/responsibleparty.png" alt="several students doing an ola"/>
+                        </a>
+                    </vue-panel-body>
+                </vue-panel>
+            </vue-grid-item>
+        </vue-grid-row>
+
+        <h3></h3>
 
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">

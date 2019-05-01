@@ -225,6 +225,8 @@
 
   "Media.subtitle": "Wanna do some communication about the IEG? Check our social media!",
   "Media.articles": "Read articles about the Games",
+  "Media.press.title": "Access the press release here",
+  "Media.press.link": "/media/release/press-en.pdf",
   "Media.social": "Social media",
   "Media.fb": "Facebook page",
   "Media.event": "Facebook event",

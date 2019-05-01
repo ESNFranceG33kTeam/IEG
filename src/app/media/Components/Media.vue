@@ -40,6 +40,8 @@
         </vue-grid-item>
       </vue-grid-row>
 
+      <h2><a target="_blank" :href="$t('Media.press.link')">{{ $t('Media.press.title') }}</a></h2>
+
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <h2>{{ $t('Media.social') }}</h2>

@@ -108,12 +108,38 @@
             <vue-grid-item class="vueGridItem">
                 <h2>{{ $t('Event.program.title') }}</h2>
 
+                <!--
                 <vue-panel>
                     <vue-panel-body>
                         {{ $t('Event.program.text1') }}<br/>
                         {{ $t('Event.program.text2') }}
                     </vue-panel-body>
-                </vue-panel>
+                </vue-panel>-->
+
+                <vue-grid-row>
+                    <vue-grid-item class="vueGridItem">
+                        <h3></h3>
+                        <vue-panel>
+                            <vue-panel-body style="display: flow-root">
+                                <a target="_blank" href="https://www.facebook.com/events/439579436794253/">
+                                    <img style="width:100%" src="/event/forum.png" alt="assas logo"/>
+                                </a>
+                            </vue-panel-body>
+                        </vue-panel>
+                    </vue-grid-item>
+
+                    <vue-grid-item>
+                        <h3></h3>
+                        <vue-panel>
+                            <vue-panel-body style="display: flow-root">
+                                <a target="_blank" href="https://www.facebook.com/events/632225497221235/">
+                                    <img style="width:100%" src="/event/boat.png" alt="eurosender logo"/>
+                                </a>
+                            </vue-panel-body>
+                        </vue-panel>
+                    </vue-grid-item>
+                </vue-grid-row>
+
             </vue-grid-item>
 
         </vue-grid-row>
